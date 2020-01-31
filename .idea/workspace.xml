@@ -140,10 +140,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initialisation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1578672082299">
+    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1580481133664">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578672082299" />
+    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580481133664" />
     <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1579904146093">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -164,10 +164,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="79" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580480626463" />
-    <state x="436" y="173" key="MultipleFileMergeDialog" timestamp="1580480626484">
+    <state x="436" y="173" key="MultipleFileMergeDialog" timestamp="1580481151112">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="436" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580480626484" />
+    <state x="436" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580481151112" />
     <state x="151" y="68" key="SettingsEditor" timestamp="1579889902379">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -184,9 +184,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="494" y="170" key="git4idea.branch.GitSmartOperationDialog/0.0.1440.900@0.0.1440.900" timestamp="1580480549122" />
-    <state x="495" y="248" key="git4idea.merge.GitMergeDialog" timestamp="1580481123946">
+    <state x="495" y="248" key="git4idea.merge.GitMergeDialog" timestamp="1580481144814">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="495" y="248" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580481123946" />
+    <state x="495" y="248" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580481144814" />
   </component>
 </project>
