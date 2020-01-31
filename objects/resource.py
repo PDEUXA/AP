@@ -1,10 +1,11 @@
+
 class Resource:
 
-    def __init__(self, resource):
+    def __init__(self, name):
         self.state = "Free"
-        self.name = resource
+        self.name = name
         self.current_task = -1
-        self.current_job = 0
+        self.current_job = -1
 
     def __str__(self):
         if self.current_task != -1:
@@ -20,7 +21,13 @@ class Resource:
                 "N/A",
                 "N/A")
 
-    def update_current_task(self, task):
+    def allocate(self, task):
         self.current_task = task
         self.current_job = task.job
         self.state = "Busy"
+
+    def deallocate(self, task):
+        self.current_task.job.next_task(self.current_task.taskID+1)
+        self.current_task = -1
+        self.current_job = -1
+        self.state = "Free"

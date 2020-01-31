@@ -6,9 +6,9 @@ class Task:
 
     def __init__(self, duration, machine, taskID, jobID, ressource, job):
         self.state = "Not Started"
-        self.startDate = 0
+        self.startDate = "N/A"
         self.duration = duration
-        self.finishDate = duration
+        self.finishDate = "N/A"
         self.machine = ressource
         self.job = job
         self.machineID = machine
@@ -26,7 +26,12 @@ class Task:
     def update_task(self, state):
         self.state = state
 
-    def update_task_and_date(self, state, t):
-        self.state = state
+    def allocate_to_ressource(self, state, t):
+        self.update_task(state)
         self.startDate = t
         self.finishDate = self.startDate + self.duration
+        self.machine.allocate(self)
+
+    def deallocate_to_ressource(self, state):
+        self.update_task(state)
+        self.machine.deallocate(self)

@@ -5,10 +5,10 @@ from objects.task import Task
 class Job:
     list_task: List[Task]
 
-    def __init__(self, jobID, job, ressource):
+    def __init__(self, jobID, name, ressource):
         self.state = "Not Done"
         self.jobID = jobID
-        self.job = job
+        self.job = name
         self.nb_task = int(len(self.job) / 2)
         self.list_task = []
         self.machine_per_task, self.duration_per_task = self.separate_jobs(self.job)
@@ -22,13 +22,24 @@ class Job:
             print("Task #", i, ":", task)
         return 'Job state= {0}'.format(self.state)
 
-    def update_current_task(self, ongoingID):
-	    self.current_task = self.list_task[ongoingID]
+    def update_current_task(self, ongoingID, t):
+        self.current_task = self.list_task[ongoingID]
+        self.update_previous_task(self.current_task)
+        self.current_task.allocate_to_ressource("On going", t)
 
-    def update_all_task(self):
-        for task in reversed(self.list_task):
-            if task.state == "On going":
-                self.update_current_task(task.taskID)
+    def update_previous_task(self,task):
+        for tasks in self.list_task[:task.taskID]:
+            tasks.update_task("Done")
+
+    def next_task(self, ongoingID):
+        if self.current_task.taskID + 1==len(self.list_task):
+            self.update_previous_task(self.current_task)
+            self.current_task.state = "Done"
+            self.current_task = -1
+            self.state = "Done"
+        else:
+            self.current_task = self.list_task[ongoingID]
+            self.update_previous_task(self.current_task)
 
     @staticmethod
     def separate_jobs(j):
