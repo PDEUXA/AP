@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/AP_JOB_SHOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AP_JOB_SHOP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/job.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/job.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/resource.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +35,7 @@
       </set>
     </option>
   </component>
-  <component name="JupyterTrust" id="cf359191-cfe0-4bc8-b0e0-fe6942296663">
-    <option name="files">
-      <option value="Notebook.ipynb" />
-    </option>
-  </component>
+  <component name="JupyterTrust" id="cf359191-cfe0-4bc8-b0e0-fe6942296663" />
   <component name="ProjectId" id="1WCrPJfQep4HCQ6sOJw1QANOrxQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -115,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578672082686</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initialisation">
+      <created>1580481133848</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580481133848</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Version 2">
+      <created>1580481170155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580481170155</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,13 +141,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initialisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialisation" />
+    <MESSAGE value="Version 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1580481133664">
+    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1580481169984">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580481133664" />
+    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580481169984" />
     <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1579904146093">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -176,17 +181,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578672131718">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580481287196">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578672131718" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580481287196" />
     <state x="494" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1580480549122">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="494" y="170" key="git4idea.branch.GitSmartOperationDialog/0.0.1440.900@0.0.1440.900" timestamp="1580480549122" />
-    <state x="495" y="248" key="git4idea.merge.GitMergeDialog" timestamp="1580481144814">
+    <state x="495" y="248" key="git4idea.merge.GitMergeDialog" timestamp="1580481278382">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="495" y="248" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580481144814" />
+    <state x="495" y="248" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580481278382" />
   </component>
 </project>
