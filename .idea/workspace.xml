@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/AP_JOB_SHOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AP_JOB_SHOP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/affichage.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/affichage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/job.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/job.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/resource.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Jerevi" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,7 +41,11 @@
       </set>
     </option>
   </component>
-  <component name="JupyterTrust" id="cf359191-cfe0-4bc8-b0e0-fe6942296663" />
+  <component name="JupyterTrust" id="cf359191-cfe0-4bc8-b0e0-fe6942296663">
+    <option name="files">
+      <option value="Notebook.ipynb" />
+    </option>
+  </component>
   <component name="ProjectId" id="1WCrPJfQep4HCQ6sOJw1QANOrxQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -66,30 +71,6 @@
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/data/instances" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="AP_JOB_SHOP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -123,10 +104,9 @@
       <workItem from="1579903895835" duration="291000" />
       <workItem from="1580116548167" duration="11000" />
       <workItem from="1580118758846" duration="3000" />
-      <workItem from="1580459231032" duration="4450000" />
-      <workItem from="1580464206666" duration="2062000" />
-      <workItem from="1580466351474" duration="480000" />
-      <workItem from="1580470064912" duration="2542000" />
+      <workItem from="1580460841237" duration="2688000" />
+      <workItem from="1580464167604" duration="1904000" />
+      <workItem from="1580479810261" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>
@@ -135,21 +115,7 @@
       <option name="project" value="LOCAL" />
       <updated>1578672082686</updated>
     </task>
-    <task id="LOCAL-00002" summary="Version objet">
-      <created>1580459426189</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1580459426189</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Version objet">
-      <created>1580470420576</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1580470420576</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,49 +137,56 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initialisation" />
-    <MESSAGE value="Version objet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version objet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialisation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="483" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580470890079">
+    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1578672082299">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="483" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1580470890079" />
-    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1580470420289">
+    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578672082299" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1579904146093">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580470420289" />
-    <state width="1398" height="135" key="GridCell.Tab.0.bottom" timestamp="1580472110078">
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579904146093" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1579904146091">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580472110078" />
-    <state width="1398" height="135" key="GridCell.Tab.0.center" timestamp="1580472110077">
+    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579904146091" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1579904146090">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580472110077" />
-    <state width="1398" height="135" key="GridCell.Tab.0.left" timestamp="1580472110076">
+    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579904146090" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1579904146092">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580472110076" />
-    <state width="1398" height="135" key="GridCell.Tab.0.right" timestamp="1580472110077">
+    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579904146092" />
+    <state x="144" y="79" key="MergeDialog" timestamp="1580480626463">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580472110077" />
-    <state x="151" y="68" key="SettingsEditor" timestamp="1580466477239">
+    <state x="144" y="79" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580480626463" />
+    <state x="436" y="173" key="MultipleFileMergeDialog" timestamp="1580480626484">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="151" y="68" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580466477239" />
+    <state x="436" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580480626484" />
+    <state x="151" y="68" key="SettingsEditor" timestamp="1579889902379">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="151" y="68" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579889902379" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1579892576483">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580470424651">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578672131718">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580470424651" />
-    <state x="404" y="248" key="git4idea.merge.GitPullDialog" timestamp="1580470277170">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578672131718" />
+    <state x="494" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1580480549122">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="404" y="248" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1580470277170" />
+    <state x="494" y="170" key="git4idea.branch.GitSmartOperationDialog/0.0.1440.900@0.0.1440.900" timestamp="1580480549122" />
+    <state x="495" y="248" key="git4idea.merge.GitMergeDialog" timestamp="1580480408223">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="495" y="248" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580480408223" />
   </component>
 </project>
