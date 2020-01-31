@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Notebook-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/affichage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AP_JOB_SHOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AP_JOB_SHOP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/instance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/job.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/job.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/resource.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/affichage.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/affichage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +67,30 @@
       <recent name="$PROJECT_DIR$/data/instances" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="AP_JOB_SHOP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -105,7 +126,7 @@
       <workItem from="1580459231032" duration="4450000" />
       <workItem from="1580464206666" duration="2062000" />
       <workItem from="1580466351474" duration="480000" />
-      <workItem from="1580470064912" duration="138000" />
+      <workItem from="1580470064912" duration="2542000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>
@@ -121,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580459426189</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Version objet">
+      <created>1580470420576</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580470420576</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,26 +175,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="Version objet" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1580470381987">
+    <state x="483" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580470890079">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580470381987" />
-    <state width="1398" height="135" key="GridCell.Tab.0.bottom" timestamp="1580469398855">
+    <state x="483" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1580470890079" />
+    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1580470420289">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580469398855" />
-    <state width="1398" height="135" key="GridCell.Tab.0.center" timestamp="1580469398853">
+    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580470420289" />
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom" timestamp="1580472110078">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580469398853" />
-    <state width="1398" height="135" key="GridCell.Tab.0.left" timestamp="1580469398852">
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580472110078" />
+    <state width="1398" height="135" key="GridCell.Tab.0.center" timestamp="1580472110077">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580469398852" />
-    <state width="1398" height="135" key="GridCell.Tab.0.right" timestamp="1580469398854">
+    <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580472110077" />
+    <state width="1398" height="135" key="GridCell.Tab.0.left" timestamp="1580472110076">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580469398854" />
+    <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580472110076" />
+    <state width="1398" height="135" key="GridCell.Tab.0.right" timestamp="1580472110077">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580472110077" />
     <state x="151" y="68" key="SettingsEditor" timestamp="1580466477239">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -175,10 +207,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580459467879">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580470424651">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580459467879" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580470424651" />
     <state x="404" y="248" key="git4idea.merge.GitPullDialog" timestamp="1580470277170">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

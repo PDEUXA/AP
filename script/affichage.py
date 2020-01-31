@@ -2,7 +2,6 @@ from objects.instance import Instance
 from objects.job import Job
 import plotly.figure_factory as ff
 import plotly.graph_objs as go
-
 from datetime import datetime
 
 instance: Instance
