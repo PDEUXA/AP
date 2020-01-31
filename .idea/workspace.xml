@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="" />
+    <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -94,7 +96,7 @@
       <workItem from="1580118758846" duration="3000" />
       <workItem from="1580460841237" duration="2688000" />
       <workItem from="1580464167604" duration="1904000" />
-      <workItem from="1580479810261" duration="817000" />
+      <workItem from="1580479810261" duration="1153000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>
@@ -110,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580480641777</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initialisation">
+      <created>1580480920816</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580480920816</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,10 +144,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initialisation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1580480723511">
+    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1580480920516">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580480723511" />
+    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580480920516" />
+    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1580480998129">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1440.900@0.0.1440.900" timestamp="1580480998129" />
     <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1579904146093">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -159,22 +172,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="79" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580480626463" />
-    <state x="436" y="173" key="MultipleFileMergeDialog" timestamp="1580480888331">
+    <state x="436" y="173" key="MultipleFileMergeDialog" timestamp="1580481006314">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="436" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580480888331" />
-    <state x="151" y="68" key="SettingsEditor" timestamp="1579889902379">
+    <state x="436" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580481006314" />
+    <state x="151" y="68" key="SettingsEditor" timestamp="1580481020357">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="151" y="68" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579889902379" />
+    <state x="151" y="68" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580481020357" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1579892576483">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580480644047">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580480925112">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580480644047" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580480925112" />
     <state x="494" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1580480882761">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
