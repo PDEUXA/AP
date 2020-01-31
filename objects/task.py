@@ -1,14 +1,14 @@
 from objects.resource import Resource
-
+import random as rd
 
 class Task:
     machine: Resource
 
     def __init__(self, duration, machine, taskID, jobID, ressource, job):
         self.state = "Not Started"
-        self.startDate = 0
+        self.startDate = rd.randint(0,20)
         self.duration = duration
-        self.finishDate = duration
+        self.finishDate = self.startDate + duration
         self.machine = ressource
         self.job = job
         self.machineID = machine

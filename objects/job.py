@@ -5,10 +5,10 @@ from objects.task import Task
 class Job:
     list_task: List[Task]
 
-    def __init__(self, jobID, job, ressource):
+    def __init__(self, jobID, ligne_problem, ressource):
         self.state = "Not Done"
         self.jobID = jobID
-        self.job = job
+        self.job = ligne_problem
         self.nb_task = int(len(self.job) / 2)
         self.list_task = []
         self.machine_per_task, self.duration_per_task = self.separate_jobs(self.job)

@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/objects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/instance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/job.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/ordonnancement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/resource.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/glouton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Notebook-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/affichage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instances.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/instance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/job.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/job.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/resource.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -39,11 +43,7 @@
       </set>
     </option>
   </component>
-  <component name="JupyterTrust" id="cf359191-cfe0-4bc8-b0e0-fe6942296663">
-    <option name="files">
-      <option value="Notebook.ipynb" />
-    </option>
-  </component>
+  <component name="JupyterTrust" id="cf359191-cfe0-4bc8-b0e0-fe6942296663" />
   <component name="ProjectId" id="1WCrPJfQep4HCQ6sOJw1QANOrxQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -60,7 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -102,6 +102,10 @@
       <workItem from="1579903895835" duration="291000" />
       <workItem from="1580116548167" duration="11000" />
       <workItem from="1580118758846" duration="3000" />
+      <workItem from="1580459231032" duration="4450000" />
+      <workItem from="1580464206666" duration="2062000" />
+      <workItem from="1580466351474" duration="480000" />
+      <workItem from="1580470064912" duration="138000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>
@@ -110,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578672082686</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version objet">
+      <created>1580459426189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580459426189</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,40 +143,45 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initialisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialisation" />
+    <MESSAGE value="Version objet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version objet" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1578672082299">
+    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1580470381987">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578672082299" />
-    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1579904146093">
+    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580470381987" />
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom" timestamp="1580469398855">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579904146093" />
-    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1579904146091">
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580469398855" />
+    <state width="1398" height="135" key="GridCell.Tab.0.center" timestamp="1580469398853">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579904146091" />
-    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1579904146090">
+    <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580469398853" />
+    <state width="1398" height="135" key="GridCell.Tab.0.left" timestamp="1580469398852">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579904146090" />
-    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1579904146092">
+    <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580469398852" />
+    <state width="1398" height="135" key="GridCell.Tab.0.right" timestamp="1580469398854">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579904146092" />
-    <state x="151" y="68" key="SettingsEditor" timestamp="1579889902379">
+    <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580469398854" />
+    <state x="151" y="68" key="SettingsEditor" timestamp="1580466477239">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="151" y="68" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579889902379" />
+    <state x="151" y="68" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580466477239" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1579892576483">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578672131718">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580459467879">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578672131718" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580459467879" />
+    <state x="404" y="248" key="git4idea.merge.GitPullDialog" timestamp="1580470277170">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="404" y="248" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1580470277170" />
   </component>
 </project>
