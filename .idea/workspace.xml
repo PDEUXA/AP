@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/objects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/instance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/job.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/ordonnancement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/resource.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/glouton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Notebook-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/instances/.ipynb_checkpoints/ft06-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/.ipynb_checkpoints/job-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/.ipynb_checkpoints/resource-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/.ipynb_checkpoints/task-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/activate.csh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/activate.fish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/python" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/python3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/python3.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AP_JOB_SHOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AP_JOB_SHOP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instances.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/job.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/job.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/resource.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/task.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +41,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -60,7 +76,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -70,15 +86,15 @@
       <recent name="$PROJECT_DIR$/data/instances" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunDashboard">
+    <option name="ruleStates">
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
       </list>
     </option>
   </component>
@@ -102,6 +118,8 @@
       <workItem from="1579903895835" duration="291000" />
       <workItem from="1580116548167" duration="11000" />
       <workItem from="1580118758846" duration="3000" />
+      <workItem from="1580460841237" duration="2688000" />
+      <workItem from="1580464167604" duration="1904000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>

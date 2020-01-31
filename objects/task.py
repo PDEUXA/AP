@@ -20,7 +20,7 @@ class Task:
                                                                                                   self.taskID,
                                                                                                   self.startDate,
                                                                                                   self.finishDate,
-                                                                                                  self.machine,
+                                                                                                  self.machine.name,
                                                                                                   self.state)
 
     def update_task(self, state):

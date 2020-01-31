@@ -23,20 +23,12 @@ class Job:
         return 'Job state= {0}'.format(self.state)
 
     def update_current_task(self, ongoingID):
-        self.current_task = self.list_task[ongoingID]
+	    self.current_task = self.list_task[ongoingID]
 
     def update_all_task(self):
         for task in reversed(self.list_task):
             if task.state == "On going":
-                ongoingID = task.taskID
-                self.update_current_task(ongoingID)
-            elif task.state == "Not Started":
-                pass
-            elif task.state == "On going":
-                if task.taskID < ongoingID:
-                    task.update_task("Done")
-                else:
-                    task.update_task("Not Started")
+                self.update_current_task(task.taskID)
 
     @staticmethod
     def separate_jobs(j):
