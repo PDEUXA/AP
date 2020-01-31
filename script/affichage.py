@@ -21,7 +21,7 @@ def plot_gantt(instance, by="JOB", grouping=True):
     df = []
     for j in instance.jobs_list:
         # Parcours les tâches de jobs
-        for t in j.list_task:
+        for t in j.task_list:
             # On associe chaque
             if by == "JOB":
                 df.append(dict(Task="Job  #" + str(t.jobID),

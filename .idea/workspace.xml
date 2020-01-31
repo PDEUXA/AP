@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/job.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/job.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/affichage.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/affichage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/affiche.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/glouton.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/glouton.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +102,7 @@
       <workItem from="1580460841237" duration="2688000" />
       <workItem from="1580464167604" duration="1904000" />
       <workItem from="1580479810261" duration="594000" />
+      <workItem from="1580484948503" duration="2215000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>
@@ -149,22 +155,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580481169984" />
-    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1579904146093">
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom" timestamp="1580485947790">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579904146093" />
-    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1579904146091">
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580485947790" />
+    <state width="1398" height="135" key="GridCell.Tab.0.center" timestamp="1580485947789">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579904146091" />
-    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1579904146090">
+    <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580485947789" />
+    <state width="1398" height="135" key="GridCell.Tab.0.left" timestamp="1580485947788">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579904146090" />
-    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1579904146092">
+    <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580485947788" />
+    <state width="1398" height="135" key="GridCell.Tab.0.right" timestamp="1580485947789">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579904146092" />
+    <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580485947789" />
     <state x="144" y="79" key="MergeDialog" timestamp="1580480626463">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
