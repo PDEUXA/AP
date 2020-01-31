@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/objects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/instance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/job.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/ordonnancement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/resource.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/glouton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instances.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/data.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AP_JOB_SHOP" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="cf359191-cfe0-4bc8-b0e0-fe6942296663">
+    <option name="files">
+      <option value="Notebook.ipynb" />
+    </option>
+  </component>
+  <component name="ProjectId" id="1WCrPJfQep4HCQ6sOJw1QANOrxQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/script" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/data/instances" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="" />
+      <created>1578664391128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578664391128</updated>
+      <workItem from="1578664403593" duration="3045000" />
+      <workItem from="1578669198125" duration="1938000" />
+      <workItem from="1578671434791" duration="816000" />
+      <workItem from="1579871721426" duration="399000" />
+      <workItem from="1579872423921" duration="20894000" />
+      <workItem from="1579900291031" duration="225000" />
+      <workItem from="1579900595484" duration="3277000" />
+      <workItem from="1579903895835" duration="291000" />
+      <workItem from="1580116548167" duration="11000" />
+      <workItem from="1580118758846" duration="3000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initialisation">
+      <created>1578672082686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578672082686</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initialisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialisation" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1578672082299">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578672082299" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1579904146093">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579904146093" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1579904146091">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579904146091" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1579904146090">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579904146090" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1579904146092">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579904146092" />
+    <state x="151" y="68" key="SettingsEditor" timestamp="1579889902379">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="151" y="68" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579889902379" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1579892576483">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578672131718">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578672131718" />
+  </component>
+</project>

@@ -7,7 +7,7 @@ def loader(name='abz5'):
     #  -number of machine
     #  -number of jobs
     #  -matrix (machine / duration)
-    with open('../data/instances.json') as json_data:
+    with open('data/instances.json') as json_data:
         data = json.load(json_data)
 
         for i, f in enumerate(data):
@@ -23,7 +23,7 @@ def loader(name='abz5'):
         if i > 4:
             tab.append([int(e) for e in line.split()])
 
-    return nb_machine, nb_jobs, tab
+    return {"nb_machine":nb_machine, "nb_jobs":nb_jobs, "problem":tab}
 
 
 def separate(matrix):
