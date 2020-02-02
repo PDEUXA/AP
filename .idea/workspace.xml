@@ -4,10 +4,11 @@
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/job.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/job.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/ordonnancement.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/script/affichage.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/affichage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/affiche.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/glouton.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/glouton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/glouton.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/heuristique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +103,7 @@
       <workItem from="1580460841237" duration="2688000" />
       <workItem from="1580464167604" duration="1904000" />
       <workItem from="1580479810261" duration="594000" />
-      <workItem from="1580484948503" duration="2215000" />
+      <workItem from="1580484948503" duration="5079000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580481170155</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Version 2 avec randomisé">
+      <created>1580487213490</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580487213490</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,29 +156,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initialisation" />
     <MESSAGE value="Version 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 2" />
+    <MESSAGE value="Version 2 avec randomisé" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 2 avec randomisé" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1580481169984">
+    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1580487213262">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580481169984" />
-    <state width="1398" height="135" key="GridCell.Tab.0.bottom" timestamp="1580485947790">
+    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580487213262" />
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom" timestamp="1580489659464">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580485947790" />
-    <state width="1398" height="135" key="GridCell.Tab.0.center" timestamp="1580485947789">
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580489659464" />
+    <state width="1398" height="135" key="GridCell.Tab.0.center" timestamp="1580489659463">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580485947789" />
-    <state width="1398" height="135" key="GridCell.Tab.0.left" timestamp="1580485947788">
+    <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580489659463" />
+    <state width="1398" height="135" key="GridCell.Tab.0.left" timestamp="1580489659462">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580485947788" />
-    <state width="1398" height="135" key="GridCell.Tab.0.right" timestamp="1580485947789">
+    <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580489659462" />
+    <state width="1398" height="135" key="GridCell.Tab.0.right" timestamp="1580489659464">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580485947789" />
+    <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580489659464" />
     <state x="144" y="79" key="MergeDialog" timestamp="1580480626463">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -187,10 +196,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580481287196">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1580487222237">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580481287196" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580487222237" />
     <state x="494" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1580480549122">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -199,5 +208,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="495" y="248" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580481278382" />
+    <state x="482" y="88" key="refactoring.ChangeSignatureDialog" timestamp="1580488452235">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="482" y="88" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1580488452235" />
   </component>
 </project>

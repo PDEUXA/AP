@@ -17,7 +17,7 @@ def sort_task(instance, par="Start"):
     # Parcours des jobs de l'instance
     for j in instance.jobs_list:
         # Parcours de tâches du job j:
-        for t in j.list_task:
+        for t in j.task_list:
             # Ajout de la tâche à la liste
             task_list[str(t.jobID)+ str(t.taskID)] = (t.jobID, t.taskID, t.startDate, t.finishDate)
 
@@ -45,5 +45,5 @@ def critical_path(instance):
     # Rang des tâches et marges =
     rang = 0
     while rang != -1:
-        if task_list []
+        break
 
