@@ -40,7 +40,7 @@ class Resource:
                 pass
             else:
                 if i != len(self.task_history):
-                    temp = self.task_history[i+1].startDate - t.finishDate
+                    temp = - self.task_history[i+1].startDate + t.finishDate
                     if temp < t.marge:
                         t.setFreeFloat(temp)
                         t.isCritical()

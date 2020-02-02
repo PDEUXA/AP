@@ -1,14 +1,15 @@
 import numpy as np
+import pandas as pd
 from objects.instance import Instance
 from objects.job import Job
 from objects.task import Task
-
 
 instance: Instance
 j: Job
 t: Task
 
-def sort_task(instance, par="Finish"):
+
+def sort_task(instance, par="Finish", dataframe=False):
     # Tries les taches selon la consigne (par date de début ou de fin)
     # Input: Objet de type Instance : instance
     # Output: Tableau (JobID, taskID, start, fin, prédécesseur) : task_list
@@ -19,36 +20,25 @@ def sort_task(instance, par="Finish"):
         # Parcours de tâches du job j:
         for t in j.task_list:
             # Ajout de la tâche à la liste
-                task_list[str(t.jobID)+ str(t.taskID)] = (t.jobID, t.taskID, t.startDate, t.finishDate, t.totalFloat)
+            task_list[str(t.jobID) + str(t.taskID)] = [t.jobID, t.taskID, t.startDate, t.finishDate, t.totalFloat]
 
-    if par=='Start':
+    if par == 'Start':
         task_list = sorted(task_list.items(), key=lambda x: x[1][2])
-        return task_list
-    elif par=="Finish":
+    elif par == "Finish":
         task_list = sorted(task_list.items(), key=lambda x: x[1][3])
-        return task_list
-    elif par=="Job":
+    elif par == "Job":
         task_list = sorted(task_list.items(), key=lambda x: x[1][0])
-        return task_list
-    elif par=="Marge":
+    elif par == "Marge":
         task_list = sorted(task_list.items(), key=lambda x: x[1][1])
-        return task_list
     else:
         print("Critère de tri non valide")
         return None
 
-def critical_path(instance):
-    # Trouve le chemin critique
-    # Input : Objet de type instance ou Tableau (JobID, taskID, start, fin, prédécesseur)
-    # Output : Liste de tâche
+    if dataframe:
+        task_list = [task_list[i][1] for i in range(len(task_list))]
+        task_list = pd.DataFrame(task_list, columns=["JobID", "TaskID", "Start", "Fin", "Marge Totale"])
+    return task_list
 
-    if type(instance) == Instance:
-        task_list = sort_task(instance)
-        task_list = np.array(task_list)
-    if type(task_list) == list:
-        task_list = np.array(task_list)
 
-    # Rang des tâches et marges =
-    # Pour chaque tâche:
-    #for task in revetask_list:
+
 

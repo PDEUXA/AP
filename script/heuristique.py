@@ -1,6 +1,5 @@
 import random
 
-
 def recherche_tache(inst, t, prio="SPT", rnd=0):
     # Recherche la tâche prioritaire à un instant t, selon l'heuristique.
     # Input :
@@ -64,9 +63,6 @@ def finish(instance):
     return True
 
 
-
-
-
 def heuristique_gloutone(instance, prio="SPT", rnd=0, verbose=0):
     # Heuristique gloutonne
     # Input:
@@ -94,5 +90,3 @@ def heuristique_gloutone(instance, prio="SPT", rnd=0, verbose=0):
     instance.calcMakeSpan()
     return instance.makeSpan
 
-#def ordonancement(instance, ordre):
-    
