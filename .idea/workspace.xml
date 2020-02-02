@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/job.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/job.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/resource.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/affichage.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/affichage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Pierre Arnaud Auque &lt;auque@etud.insa-toulouse.fr&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="Jerevi" />
@@ -105,7 +104,7 @@
       <workItem from="1580479810261" duration="594000" />
       <workItem from="1580484948503" duration="2215000" />
       <workItem from="1580639670151" duration="14000" />
-      <workItem from="1580639697903" duration="2022000" />
+      <workItem from="1580639697903" duration="2264000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>
@@ -128,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580481170155</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Version 2">
+      <created>1580643268544</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580643268544</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,15 +160,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="Version 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="28" width="862" height="711" key="CommitChangelistDialog2" timestamp="1580643245902">
+    <state x="275" y="46" width="802" height="676" key="#Notifications" timestamp="1580643413308">
+      <screen x="0" y="28" width="1360" height="712" />
+    </state>
+    <state x="275" y="46" width="802" height="676" key="#Notifications/0.28.1360.712@0.28.1360.712" timestamp="1580643413308" />
+    <state x="313" y="28" width="862" height="711" key="CommitChangelistDialog2" timestamp="1580643268383">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580481169984" />
-    <state x="313" y="28" width="862" height="711" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1580643245902" />
-    <state x="127" y="84" width="1090" height="598" key="DiffContextDialog" timestamp="1580643217091">
+    <state x="313" y="28" width="862" height="711" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1580643268383" />
+    <state x="127" y="84" width="1090" height="598" key="DiffContextDialog" timestamp="1580643370698">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
-    <state x="127" y="84" width="1090" height="598" key="DiffContextDialog/0.28.1360.712@0.28.1360.712" timestamp="1580643217091" />
+    <state x="127" y="84" width="1090" height="598" key="DiffContextDialog/0.28.1360.712@0.28.1360.712" timestamp="1580643370698" />
     <state width="1314" height="2" key="GridCell.Tab.0.bottom" timestamp="1580642203935">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
@@ -212,14 +222,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="494" y="170" key="git4idea.branch.GitSmartOperationDialog/0.0.1440.900@0.0.1440.900" timestamp="1580480549122" />
-    <state x="468" y="224" width="523" height="412" key="git4idea.merge.GitMergeDialog" timestamp="1580643205084">
+    <state x="468" y="224" width="523" height="412" key="git4idea.merge.GitMergeDialog" timestamp="1580643404622">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="495" y="248" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580481278382" />
-    <state x="468" y="224" width="523" height="412" key="git4idea.merge.GitMergeDialog/0.28.1360.712@0.28.1360.712" timestamp="1580643205084" />
-    <state x="342" y="178" width="667" height="412" key="git4idea.merge.GitPullDialog" timestamp="1580643170104">
+    <state x="468" y="224" width="523" height="412" key="git4idea.merge.GitMergeDialog/0.28.1360.712@0.28.1360.712" timestamp="1580643404622" />
+    <state x="342" y="178" width="667" height="412" key="git4idea.merge.GitPullDialog" timestamp="1580643321544">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
-    <state x="342" y="178" width="667" height="412" key="git4idea.merge.GitPullDialog/0.28.1360.712@0.28.1360.712" timestamp="1580643170104" />
+    <state x="342" y="178" width="667" height="412" key="git4idea.merge.GitPullDialog/0.28.1360.712@0.28.1360.712" timestamp="1580643321544" />
   </component>
 </project>
