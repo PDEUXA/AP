@@ -64,13 +64,7 @@ def finish(instance):
     return True
 
 
-def makespan(instance):
-    maxi = -1
-    for j in instance.jobs_list:
-        for t in j.task_list:
-            if t.finishDate > maxi:
-                maxi = t.finishDate
-    return maxi
+
 
 
 def heuristique_gloutone(instance, prio="SPT", rnd=0, verbose=0):
@@ -97,7 +91,8 @@ def heuristique_gloutone(instance, prio="SPT", rnd=0, verbose=0):
                 res.current_task.deallocate_to_ressource("Done")
                 recherche_tache(instance, time, prio, rnd)
         time += 1
-    return makespan(instance)
+    instance.calcMakeSpan()
+    return instance.makeSpan
 
-def ordonancement(instance, ordre):
+#def ordonancement(instance, ordre):
     

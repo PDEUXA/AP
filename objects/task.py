@@ -14,7 +14,11 @@ class Task:
         self.machineID = machine
         self.taskID = taskID
         self.jobID = jobID
+
         self.startSucessor = -1
+        self.freeFloat = -1
+        self.totalFloat = -1
+        self.critical = False
 
     def __str__(self):
         return 'JobID= {0}, taskID= {1}, Start= {2}, Finish={3}, Machine= {4}, State= {5}'.format(self.jobID,
@@ -36,3 +40,17 @@ class Task:
     def deallocate_to_ressource(self, state):
         self.update_task(state)
         self.machine.deallocate(self)
+
+    def isCritical(self):
+        if self.totalFloat == 0:
+            self.critical = True
+
+    def setFreeFloat(self, value):
+        self.freeFloat = value
+
+    def setTotalFloat(self, value):
+        self.totalFloat = value
+
+    def setStartSucessor(self,value):
+        self.startSucessor = value
+

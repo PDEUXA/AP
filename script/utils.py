@@ -8,7 +8,7 @@ instance: Instance
 j: Job
 t: Task
 
-def sort_task(instance, par="Start"):
+def sort_task(instance, par="Finish"):
     # Tries les taches selon la consigne (par date de début ou de fin)
     # Input: Objet de type Instance : instance
     # Output: Tableau (JobID, taskID, start, fin, prédécesseur) : task_list
@@ -17,15 +17,21 @@ def sort_task(instance, par="Start"):
     # Parcours des jobs de l'instance
     for j in instance.jobs_list:
         # Parcours de tâches du job j:
-        for t in j.list_task:
+        for t in j.task_list:
             # Ajout de la tâche à la liste
-            task_list[str(t.jobID)+ str(t.taskID)] = (t.jobID, t.taskID, t.startDate, t.finishDate)
+                task_list[str(t.jobID)+ str(t.taskID)] = (t.jobID, t.taskID, t.startDate, t.finishDate, t.totalFloat)
 
     if par=='Start':
         task_list = sorted(task_list.items(), key=lambda x: x[1][2])
         return task_list
     elif par=="Finish":
         task_list = sorted(task_list.items(), key=lambda x: x[1][3])
+        return task_list
+    elif par=="Job":
+        task_list = sorted(task_list.items(), key=lambda x: x[1][0])
+        return task_list
+    elif par=="Marge":
+        task_list = sorted(task_list.items(), key=lambda x: x[1][1])
         return task_list
     else:
         print("Critère de tri non valide")
@@ -44,4 +50,5 @@ def critical_path(instance):
 
     # Rang des tâches et marges =
     # Pour chaque tâche:
-    for task in task_list:
+    #for task in revetask_list:
+

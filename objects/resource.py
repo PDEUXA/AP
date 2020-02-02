@@ -33,3 +33,15 @@ class Resource:
         self.current_task = -1
         self.current_job = -1
         self.state = "Free"
+
+    def define_pred(self):
+        for i, t in enumerate(self.task_history):
+            if t.marge == 0:
+                pass
+            else:
+                if i != len(self.task_history):
+                    temp = self.task_history[i+1].startDate - t.finishDate
+                    if temp < t.marge:
+                        t.setFreeFloat(temp)
+                        t.isCritical()
+

@@ -13,9 +13,12 @@ j: Job
 r: Resource
 
 
-def plot_gantt(instance, by="JOB", grouping=True):
+def plot_gantt(instance, by="JOB", grouping=True, color= 'Resource'):
     # Affiche le diagram de Gantt
     # Input : Objet de type Instance
+    # -- by : str, displaying by "JOB" or "MACHINE"
+    # -- grouping = bool, grouping the display
+    # -- colr = str, coloring by "Resource" or "Critical"
 
     # df = [dict(Task="Job A", Start='2009-01-01', Finish='2009-02-01', Resource='Apple'),
     #      dict(Task="Job B", Start='2009-03-05', Finish='2009-04-15', Resource='Grape'),
@@ -32,7 +35,8 @@ def plot_gantt(instance, by="JOB", grouping=True):
                     df.append(dict(Task="Job  #" + str(t.jobID),
                                    Start=datetime.fromordinal(t.startDate + 1),
                                    Finish=datetime.fromordinal(t.finishDate + 1),
-                                   Resource="Machine #" + str(t.machineID)))
+                                   Resource="Machine #" + str(t.machineID),
+                                   Critical=int(t.critical)*100))
 
     elif by == "MACHINE":
         for r in instance.resource_list:
@@ -40,17 +44,17 @@ def plot_gantt(instance, by="JOB", grouping=True):
                 df.append(dict(Task="Machine  #" + str(t.machineID),
                                Start=datetime.fromordinal(t.startDate + 1),
                                Finish=datetime.fromordinal(t.finishDate + 1),
-                               Resource="Job #" + str(t.jobID)))
+                               Resource="Job #" + str(t.jobID),
+                               Critical=int(t.critical)*100))
 
-    fig = ff.create_gantt(df, index_col='Resource',
-                          reverse_colors=True,
+    fig = ff.create_gantt(df, index_col=color,
                           show_colorbar=True,
                           group_tasks=grouping,
                           show_hover_fill=True,
                           showgrid_x=True,
                           showgrid_y=True)
-    fig.layout.xaxis.tickformat = '%'
-    go.FigureWidget(fig)
+    #fig.layout.xaxis.tickformat = '%'
+    #go.FigureWidget(fig)
     fig.show()
 
 

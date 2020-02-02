@@ -5,7 +5,8 @@ from objects.task import Task
 class Job:
     task_list: List[Task]
 
-    def __init__(self, jobID, name, ressource):
+    def __init__(self, jobID, name, ressource, instance):
+        self.instance = instance
         self.state = "Not Done"
         self.jobID = jobID
         self.job = name
@@ -27,20 +28,21 @@ class Job:
         self.update_previous_task(self.current_task)
         self.current_task.allocate_to_ressource("On going", t)
 
-    def update_previous_task(self,task):
+    def update_previous_task(self, task):
         for tasks in self.task_list[:task.taskID]:
             tasks.update_task("Done")
 
     def next_task(self, ongoingID):
-        if self.current_task.taskID + 1==len(self.task_list):
+        if self.current_task.taskID + 1 == len(self.task_list):
             self.update_previous_task(self.current_task)
             self.current_task.state = "Done"
             self.current_task = -1
             self.state = "Done"
+            self.instance.calcMakeSpan()
+            self.maj_successor()
         else:
             self.current_task = self.task_list[ongoingID]
             self.update_previous_task(self.current_task)
-            self.task_list[ongoingID-1].update_succesor
 
     @staticmethod
     def separate_jobs(j):
@@ -54,3 +56,20 @@ class Job:
                 # Durée
                 durations.append(e)
         return machines, durations
+
+    def maj_successor(self):
+        totalFloat = 0
+        for i, t in enumerate(self.task_list):
+            if i != (len(self.task_list)-1):
+                t.setStartSucessor(self.task_list[i + 1].startDate)
+                freeFloat = t.startSucessor - t.finishDate
+                t.setFreeFloat(freeFloat)
+                totalFloat += freeFloat
+                t.setTotalFloat(totalFloat)
+                t.isCritical()
+            else:
+                t.setStartSucessor(self.instance.makeSpan)
+                t.setFreeFloat(t.startSucessor - t.finishDate)
+                t.setTotalFloat(totalFloat)
+                t.isCritical()
+
