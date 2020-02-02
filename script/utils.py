@@ -43,7 +43,5 @@ def critical_path(instance):
         task_list = np.array(task_list)
 
     # Rang des tâches et marges =
-    rang = 0
-    while rang != -1:
-        if task_list []
-
+    # Pour chaque tâche:
+    for task in task_list:

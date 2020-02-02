@@ -40,6 +40,7 @@ class Job:
         else:
             self.current_task = self.task_list[ongoingID]
             self.update_previous_task(self.current_task)
+            self.task_list[ongoingID-1].update_succesor
 
     @staticmethod
     def separate_jobs(j):

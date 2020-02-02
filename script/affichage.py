@@ -4,8 +4,11 @@ import plotly.figure_factory as ff
 import plotly.graph_objs as go
 from datetime import datetime
 
+from objects.resource import Resource
+
 instance: Instance
 j: Job
+r: Resource
 
 
 def plot_gantt(instance, by="JOB", grouping=True):
@@ -19,16 +22,19 @@ def plot_gantt(instance, by="JOB", grouping=True):
     # Création d'une liste de dictionnaire
     # Parcours les jobs de l'instance
     df = []
-    for j in instance.jobs_list:
-        # Parcours les tâches de jobs
-        for t in j.task_list:
-            # On associe chaque
-            if by == "JOB":
-                df.append(dict(Task="Job  #" + str(t.jobID),
-                               Start=datetime.fromordinal(t.startDate + 1),
-                               Finish=datetime.fromordinal(t.finishDate + 1),
-                               Resource="Machine #" + str(t.machineID)))
-            elif by == "MACHINE":
+    if by == "JOB":
+        for j in instance.jobs_list:
+            # Parcours les tâches de jobs
+            for t in j.task_list:
+                # On associe chaque
+                    df.append(dict(Task="Job  #" + str(t.jobID),
+                                   Start=datetime.fromordinal(t.startDate + 1),
+                                   Finish=datetime.fromordinal(t.finishDate + 1),
+                                   Resource="Machine #" + str(t.machineID)))
+
+    elif by == "MACHINE":
+        for r in instance.resource_list:
+            for t in r.task_history:
                 df.append(dict(Task="Machine  #" + str(t.machineID),
                                Start=datetime.fromordinal(t.startDate + 1),
                                Finish=datetime.fromordinal(t.finishDate + 1),

@@ -14,6 +14,7 @@ class Task:
         self.machineID = machine
         self.taskID = taskID
         self.jobID = jobID
+        self.startSucessor = -1
 
     def __str__(self):
         return 'JobID= {0}, taskID= {1}, Start= {2}, Finish={3}, Machine= {4}, State= {5}'.format(self.jobID,
