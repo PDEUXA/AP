@@ -98,3 +98,6 @@ def heuristique_gloutone(instance, prio="SPT", rnd=0, verbose=0):
                 recherche_tache(instance, time, prio, rnd)
         time += 1
     return makespan(instance)
+
+def ordonancement(instance, ordre):
+    

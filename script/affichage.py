@@ -1,8 +1,10 @@
-from objects.instance import Instance
-from objects.job import Job
 import plotly.figure_factory as ff
 import plotly.graph_objs as go
+import numpy as np
+from objects.instance import Instance
+from objects.job import Job
 from datetime import datetime
+from script.utils import sort_task
 
 from objects.resource import Resource
 
@@ -50,3 +52,21 @@ def plot_gantt(instance, by="JOB", grouping=True):
     fig.layout.xaxis.tickformat = '%'
     go.FigureWidget(fig)
     fig.show()
+
+
+def affichage_repetition(instance):
+    # Input :
+    # --- Objet de type Instance
+
+    data = sort_task(instance)
+    nb_machine = instance.nb_machine
+    liste = [int(x[0][0]) for x in np.array(data)]
+    for i in range(nb_machine):
+        if liste.count(i) != nb_machine:
+            print("Erreur sur le nombre de tâche/machine")
+
+    return np.array(liste)
+
+
+
+

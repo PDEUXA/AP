@@ -16,6 +16,8 @@ def loader(name='abz5'):
                 break
         nb_machine = data[index]['machines']
         nb_jobs = data[index]['jobs']
+        optimum = data[index]['optimum']
+
 
     file = open("data/instances/" + name, "r")
     tab = []
@@ -23,7 +25,7 @@ def loader(name='abz5'):
         if i > 4:
             tab.append([int(e) for e in line.split()])
 
-    return {"nb_machine":nb_machine, "nb_jobs":nb_jobs, "problem":tab}
+    return {"nb_machine":nb_machine, "nb_jobs":nb_jobs, "problem":tab}, optimum
 
 
 def separate(matrix):
