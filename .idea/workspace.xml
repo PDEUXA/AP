@@ -164,11 +164,11 @@
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="275" y="46" width="802" height="676" key="#Notifications/0.28.1360.712@0.28.1360.712" timestamp="1580643413308" />
-    <state x="313" y="28" width="862" height="711" key="CommitChangelistDialog2" timestamp="1580643268383">
+    <state x="313" y="28" width="862" height="711" key="CommitChangelistDialog2" timestamp="1580643474243">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580481169984" />
-    <state x="313" y="28" width="862" height="711" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1580643268383" />
+    <state x="313" y="28" width="862" height="711" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1580643474243" />
     <state x="127" y="84" width="1090" height="598" key="DiffContextDialog" timestamp="1580643370698">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
@@ -227,9 +227,9 @@
     </state>
     <state x="495" y="248" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580481278382" />
     <state x="468" y="224" width="523" height="412" key="git4idea.merge.GitMergeDialog/0.28.1360.712@0.28.1360.712" timestamp="1580643404622" />
-    <state x="342" y="178" width="667" height="412" key="git4idea.merge.GitPullDialog" timestamp="1580643321544">
+    <state x="342" y="178" width="667" height="412" key="git4idea.merge.GitPullDialog" timestamp="1580643480279">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
-    <state x="342" y="178" width="667" height="412" key="git4idea.merge.GitPullDialog/0.28.1360.712@0.28.1360.712" timestamp="1580643321544" />
+    <state x="342" y="178" width="667" height="412" key="git4idea.merge.GitPullDialog/0.28.1360.712@0.28.1360.712" timestamp="1580643480279" />
   </component>
 </project>
