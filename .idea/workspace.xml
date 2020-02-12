@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/instances/instp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heuristique/genetique.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heuristique/ordo_avec_liste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/individus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/population.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/recherche_voisin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Notebook-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Notebook-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/instances.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/instances.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects/instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/instance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects/resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/resource.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/task.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/affichage.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/affichage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/heuristique.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/heuristique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/heuristique.py" beforeDir="false" afterPath="$PROJECT_DIR$/heuristique/heuristique_gloutonne.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +68,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/heuristique" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/script" />
       <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/data/instances" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/instances" />
     </key>
   </component>
@@ -105,7 +119,16 @@
       <workItem from="1580464167604" duration="1904000" />
       <workItem from="1580479810261" duration="594000" />
       <workItem from="1580484948503" duration="5079000" />
-      <workItem from="1580643714494" duration="12401000" />
+      <workItem from="1580643714494" duration="12482000" />
+      <workItem from="1580911581584" duration="2000" />
+      <workItem from="1580914398999" duration="5132000" />
+      <workItem from="1580921322109" duration="1176000" />
+      <workItem from="1580922506632" duration="5113000" />
+      <workItem from="1580981816584" duration="17272000" />
+      <workItem from="1581064845350" duration="100000" />
+      <workItem from="1581081552702" duration="5497000" />
+      <workItem from="1581331904020" duration="14000" />
+      <workItem from="1581513312782" duration="11402000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>
@@ -149,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580660378725</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MaJ du calcul du chemin critique&#10;MaJ résultat dans un dataframe&#10;Maj Marge&#10;Maj Index chemin critique">
+      <created>1580664885705</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580664885705</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,34 +205,43 @@
     <MESSAGE value="Version 2 avec randomisé" />
     <MESSAGE value="Merge branch 'master' of https://github.com/PDEUXA/AP_JOB_SHOP&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;Notebook.ipynb&#10;#&#9;script/utils.py" />
     <MESSAGE value="Ajout du calcul du chemin critique" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du calcul du chemin critique" />
+    <MESSAGE value="MaJ du calcul du chemin critique&#10;MaJ résultat dans un dataframe&#10;Maj Marge&#10;Maj Index chemin critique" />
+    <option name="LAST_COMMIT_MESSAGE" value="MaJ du calcul du chemin critique&#10;MaJ résultat dans un dataframe&#10;Maj Marge&#10;Maj Index chemin critique" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2" timestamp="1580660378564">
+    <state x="388" y="189" width="567" height="389" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580985627212">
+      <screen x="0" y="28" width="1360" height="712" />
+    </state>
+    <state x="388" y="189" width="567" height="389" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1360.712@0.28.1360.712" timestamp="1580985627212" />
+    <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2" timestamp="1580664885551">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580487213262" />
-    <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1580660378564" />
-    <state width="1314" height="143" key="GridCell.Tab.0.bottom" timestamp="1580659986737">
+    <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1580664885551" />
+    <state x="463" y="142" width="426" height="483" key="FileChooserDialogImpl" timestamp="1581064879031">
+      <screen x="0" y="28" width="1360" height="712" />
+    </state>
+    <state x="463" y="142" width="426" height="483" key="FileChooserDialogImpl/0.28.1360.712@0.28.1360.712" timestamp="1581064879031" />
+    <state width="1106" height="172" key="GridCell.Tab.0.bottom" timestamp="1581524674047">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580489659464" />
-    <state width="1314" height="143" key="GridCell.Tab.0.bottom/0.28.1360.712@0.28.1360.712" timestamp="1580659986737" />
-    <state width="1314" height="143" key="GridCell.Tab.0.center" timestamp="1580659986737">
+    <state width="1106" height="172" key="GridCell.Tab.0.bottom/0.28.1360.712@0.28.1360.712" timestamp="1581524674047" />
+    <state width="1106" height="172" key="GridCell.Tab.0.center" timestamp="1581524674047">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580489659463" />
-    <state width="1314" height="143" key="GridCell.Tab.0.center/0.28.1360.712@0.28.1360.712" timestamp="1580659986737" />
-    <state width="1314" height="143" key="GridCell.Tab.0.left" timestamp="1580659986737">
+    <state width="1106" height="172" key="GridCell.Tab.0.center/0.28.1360.712@0.28.1360.712" timestamp="1581524674047" />
+    <state width="1106" height="172" key="GridCell.Tab.0.left" timestamp="1581524674046">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580489659462" />
-    <state width="1314" height="143" key="GridCell.Tab.0.left/0.28.1360.712@0.28.1360.712" timestamp="1580659986737" />
-    <state width="1314" height="143" key="GridCell.Tab.0.right" timestamp="1580659986737">
+    <state width="1106" height="172" key="GridCell.Tab.0.left/0.28.1360.712@0.28.1360.712" timestamp="1581524674046" />
+    <state width="1106" height="172" key="GridCell.Tab.0.right" timestamp="1581524674047">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580489659464" />
-    <state width="1314" height="143" key="GridCell.Tab.0.right/0.28.1360.712@0.28.1360.712" timestamp="1580659986737" />
+    <state width="1106" height="172" key="GridCell.Tab.0.right/0.28.1360.712@0.28.1360.712" timestamp="1581524674047" />
     <state x="144" y="79" key="MergeDialog" timestamp="1580480626463">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -223,11 +262,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
-    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1580660388849">
+    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1580664888301">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580487222237" />
-    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1360.712@0.28.1360.712" timestamp="1580660388849" />
+    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1360.712@0.28.1360.712" timestamp="1580664888301" />
+    <state x="336" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1581081552925">
+      <screen x="0" y="28" width="1360" height="712" />
+    </state>
+    <state x="336" y="212" key="com.intellij.ide.util.TipDialog/0.28.1360.712@0.28.1360.712" timestamp="1581081552925" />
     <state x="494" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1580480549122">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

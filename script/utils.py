@@ -8,6 +8,19 @@ instance: Instance
 j: Job
 t: Task
 
+def vecteur_bier(instance, par = "Start"):
+    # Input :
+    # --- Objet de type Instance
+
+    data = sort_task(instance, par=par)
+    nb_machine = instance.nb_machine
+    liste = [int(x[0][0]) for x in np.array(data)]
+    for i in range(nb_machine):
+        if liste.count(i) != nb_machine:
+            print("Erreur sur le nombre de tâche/machine")
+
+    return np.array(liste)
+
 
 def sort_task(instance, par="Finish", dataframe=False):
     # Tries les taches selon la consigne (par date de début ou de fin)

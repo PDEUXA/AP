@@ -1,5 +1,9 @@
 import random
 
+from objects.instance import Instance
+inst: Instance
+
+
 def recherche_tache(inst, t, prio="SPT", rnd=0):
     # Recherche la tâche prioritaire à un instant t, selon l'heuristique.
     # Input :
@@ -17,7 +21,6 @@ def recherche_tache(inst, t, prio="SPT", rnd=0):
             if j.current_task.machine.state == "Free":
                 # On ajoute cette tache à la liste de tache possible
                 tache_possible.append(j.current_task)
-
     if len(tache_possible) != 0:
         if random.random() < rnd:
             maxi_task = random.sample(tache_possible, 1)[0]
@@ -44,6 +47,7 @@ def recherche_tache(inst, t, prio="SPT", rnd=0):
             maxi_task.job.update_current_task(maxi_task.taskID, t)
             try:
                 tache_possible.remove(maxi_task)
+                return maxi_task
             except:
                 pass
         elif prio == "SPT":
@@ -57,10 +61,12 @@ def recherche_tache(inst, t, prio="SPT", rnd=0):
 
 
 def finish(instance):
-    for resource in instance.jobs_list:
-        if resource.state == "Not Done":
+    for job in instance.jobs_list:
+        if job.state == "Not Done":
             return False
+    instance.set_state()
     return True
+
 
 
 def heuristique_gloutone(instance, prio="SPT", rnd=0, verbose=0):
@@ -71,8 +77,6 @@ def heuristique_gloutone(instance, prio="SPT", rnd=0, verbose=0):
     # --- Verbose: int, niveau de verbose
     # Output: None
     time = 0
-    recherche_tache(instance, time, prio, rnd)
-    time += 1
     while time < 10000:
         if finish(instance):
             break

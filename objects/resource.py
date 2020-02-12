@@ -7,14 +7,16 @@ class Resource:
         self.current_task = -1
         self.current_job = -1
         self.task_history = []
+        self.freeDate = -10000
 
     def __str__(self):
         if self.current_task != -1:
-            return 'Machine number = {0}, State = {1}, Current Job = {2}, Current Task = {3}'.format(
+            return 'Machine number = {0}, State = {1}, Current Job = {2}, Current Task = {3}, Finish data = {4}'.format(
                 self.name,
                 self.state,
                 self.current_task.jobID,
-                self.current_task.taskID)
+                self.current_task.taskID,
+                self.current_task.finishDate)
         else:
             return 'Machine number = {0}, State = {1}, Current Job = {2}, Current Task = {3}'.format(
                 self.name,
@@ -25,6 +27,7 @@ class Resource:
     def allocate(self, task):
         self.current_task = task
         self.current_job = task.job
+        self.freeDate = self.current_task.finishDate
         self.state = "Busy"
         self.task_history.append(self.current_task)
 

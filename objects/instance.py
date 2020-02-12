@@ -13,6 +13,7 @@ class Instance:
         self.jobs_list = []
         self.makeSpan = -1
         self.criticalPath = []
+        self.state = "Not Solved"
         # Create Resources
         for i in range(self.nb_machine):
             self.resource_list.append(Resource(i))
@@ -22,6 +23,9 @@ class Instance:
 
     def __str__(self):
         return '{}'.format(self.problem)
+
+    def set_state(self):
+        self.state = "Solved"
 
     def calcMakeSpan(self):
         maxi = -1

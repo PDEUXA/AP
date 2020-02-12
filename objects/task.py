@@ -6,9 +6,9 @@ class Task:
 
     def __init__(self, duration, machine, taskID, jobID, ressource, job):
         self.state = "Not Started"
-        self.startDate = "N/A"
+        self.startDate = 10000
         self.duration = duration
-        self.finishDate = "N/A"
+        self.finishDate = 10000
         self.machine = ressource
         self.job = job
         self.machineID = machine
@@ -21,12 +21,14 @@ class Task:
         self.critical = False
 
     def __str__(self):
-        return 'JobID= {0}, taskID= {1}, Start= {2}, Finish={3}, Machine= {4}, State= {5}'.format(self.jobID,
-                                                                                                  self.taskID,
-                                                                                                  self.startDate,
-                                                                                                  self.finishDate,
-                                                                                                  self.machine.name,
-                                                                                                  self.state)
+        return 'JobID= {0}, taskID= {1}, Start= {2}, Finish={3}, Duration={4}, Machine= {5}, State= {6}'.format(
+            self.jobID,
+            self.taskID,
+            self.startDate,
+            self.finishDate,
+            self.duration,
+            self.machine.name,
+            self.state)
 
     def update_task(self, state):
         self.state = state
@@ -51,6 +53,5 @@ class Task:
     def setTotalFloat(self, value):
         self.totalFloat = value
 
-    def setStartSucessor(self,value):
+    def setStartSucessor(self, value):
         self.startSucessor = value
-

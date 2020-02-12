@@ -1,3 +1,5 @@
+from math import log
+
 import plotly.figure_factory as ff
 import plotly.graph_objs as go
 import numpy as np
@@ -5,6 +7,8 @@ from objects.instance import Instance
 from objects.job import Job
 from datetime import datetime
 from script.utils import sort_task
+import matplotlib.pyplot as plt
+import networkx as nx
 
 from objects.resource import Resource
 
@@ -58,20 +62,28 @@ def plot_gantt(instance, by="JOB", grouping=True, color= 'Resource'):
     fig.show()
 
 
-def affichage_repetition(instance):
-    # Input :
-    # --- Objet de type Instance
+def net_voisinage(graph):
 
-    data = sort_task(instance)
-    nb_machine = instance.nb_machine
-    liste = [int(x[0][0]) for x in np.array(data)]
-    for i in range(nb_machine):
-        if liste.count(i) != nb_machine:
-            print("Erreur sur le nombre de tâche/machine")
+    d_node = {}
+    size = []
+    for g in graph.nodes():
+        d_node[g] = graph.nodes[g]['makespan']
+        size.append(graph.nodes[g]['makespan'])
+    size = np.array(size)*10/size[0]
+    print(size)
+    #d_edge = {}
+    #for g in graph.edges():
+    #    d_edge[g] = graph.edges[g]['chemin']
 
-    return np.array(liste)
+    plt.figure(figsize=(8, 8))
+    pos = nx.planar_layout(graph)
+    nx.draw(graph, pos, node_labels=d_node, node_color=range(graph.number_of_nodes()),
+            edge_color=range(graph.number_of_edges()), edge_cmap=plt.cm.viridis,
+            node_size=[i**3 for i in size], cmap=plt.cm.viridis)
+    nx.draw_networkx_labels(graph, pos, d_node)
+    #nx.draw_networkx_edge_labels(graph, pos, edge_labels=dict(graph.edges()), width=1.0, alpha=0.5, font_size=9)
+    plt.show()
 
-
-
+    # %%
 
 
