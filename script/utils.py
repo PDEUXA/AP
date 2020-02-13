@@ -8,6 +8,30 @@ instance: Instance
 j: Job
 t: Task
 
+def decodage_bier(liste):
+    # decodage vecteur de Bierwith
+    vect_decode = []
+    temp = []
+    for i, elem in enumerate(liste):
+        temp.append(elem)
+        vect_decode.append(temp.count(elem)-1)
+    return np.array(vect_decode)
+
+
+def decodage_gene(sequence):
+    temp = []
+    for j,t in zip(sequence, decodage_bier(sequence)):
+        temp.append('o'+str(j)+str(t))
+    return temp
+
+
+def codage_gene(sequence):
+    temp = []
+    for e in sequence:
+        temp.append(int(e[1]))
+    return np.array(temp)
+
+
 def vecteur_bier(instance, par = "Start"):
     # Input :
     # --- Objet de type Instance
@@ -18,7 +42,6 @@ def vecteur_bier(instance, par = "Start"):
     for i in range(nb_machine):
         if liste.count(i) != nb_machine:
             print("Erreur sur le nombre de tâche/machine")
-
     return np.array(liste)
 
 

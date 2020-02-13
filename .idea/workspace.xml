@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/instances/instp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heuristique/genetique.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heuristique/ordo_avec_liste.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/individus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/population.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/recherche_voisin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objects/thread.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Notebook-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Notebook-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/instances.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/instances.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/instance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/resource.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/affichage.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/affichage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/heuristique.py" beforeDir="false" afterPath="$PROJECT_DIR$/heuristique/heuristique_gloutonne.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heuristique/genetique.py" beforeDir="false" afterPath="$PROJECT_DIR$/heuristique/genetique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heuristique/ordo_avec_liste.py" beforeDir="false" afterPath="$PROJECT_DIR$/heuristique/ordo_avec_liste.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/individus.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/individus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/population.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/population.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +61,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -129,6 +122,10 @@
       <workItem from="1581081552702" duration="5497000" />
       <workItem from="1581331904020" duration="14000" />
       <workItem from="1581513312782" duration="11402000" />
+      <workItem from="1581539260430" duration="5537000" />
+      <workItem from="1581583936319" duration="9576000" />
+      <workItem from="1581593694883" duration="1038000" />
+      <workItem from="1581594742058" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>
@@ -213,6 +210,10 @@
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="388" y="189" width="567" height="389" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1360.712@0.28.1360.712" timestamp="1580985627212" />
+    <state x="416" y="240" width="520" height="287" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581592097821">
+      <screen x="0" y="28" width="1360" height="712" />
+    </state>
+    <state x="416" y="240" width="520" height="287" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.28.1360.712@0.28.1360.712" timestamp="1581592097821" />
     <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2" timestamp="1580664885551">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
@@ -222,26 +223,26 @@
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="463" y="142" width="426" height="483" key="FileChooserDialogImpl/0.28.1360.712@0.28.1360.712" timestamp="1581064879031" />
-    <state width="1106" height="172" key="GridCell.Tab.0.bottom" timestamp="1581524674047">
+    <state width="1314" height="146" key="GridCell.Tab.0.bottom" timestamp="1581595028639">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580489659464" />
-    <state width="1106" height="172" key="GridCell.Tab.0.bottom/0.28.1360.712@0.28.1360.712" timestamp="1581524674047" />
-    <state width="1106" height="172" key="GridCell.Tab.0.center" timestamp="1581524674047">
+    <state width="1314" height="146" key="GridCell.Tab.0.bottom/0.28.1360.712@0.28.1360.712" timestamp="1581595028639" />
+    <state width="1314" height="146" key="GridCell.Tab.0.center" timestamp="1581595028639">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580489659463" />
-    <state width="1106" height="172" key="GridCell.Tab.0.center/0.28.1360.712@0.28.1360.712" timestamp="1581524674047" />
-    <state width="1106" height="172" key="GridCell.Tab.0.left" timestamp="1581524674046">
+    <state width="1314" height="146" key="GridCell.Tab.0.center/0.28.1360.712@0.28.1360.712" timestamp="1581595028639" />
+    <state width="1314" height="146" key="GridCell.Tab.0.left" timestamp="1581595028639">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580489659462" />
-    <state width="1106" height="172" key="GridCell.Tab.0.left/0.28.1360.712@0.28.1360.712" timestamp="1581524674046" />
-    <state width="1106" height="172" key="GridCell.Tab.0.right" timestamp="1581524674047">
+    <state width="1314" height="146" key="GridCell.Tab.0.left/0.28.1360.712@0.28.1360.712" timestamp="1581595028639" />
+    <state width="1314" height="146" key="GridCell.Tab.0.right" timestamp="1581595028639">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580489659464" />
-    <state width="1106" height="172" key="GridCell.Tab.0.right/0.28.1360.712@0.28.1360.712" timestamp="1581524674047" />
+    <state width="1314" height="146" key="GridCell.Tab.0.right/0.28.1360.712@0.28.1360.712" timestamp="1581595028639" />
     <state x="144" y="79" key="MergeDialog" timestamp="1580480626463">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -254,23 +255,24 @@
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="450" y="97" width="452" height="573" key="RollbackChangesDialog/0.28.1360.712@0.28.1360.712" timestamp="1580655821757" />
-    <state x="151" y="68" key="SettingsEditor" timestamp="1579889902379">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="143" y="28" key="SettingsEditor" timestamp="1581592173471">
+      <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="151" y="68" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579889902379" />
+    <state x="143" y="28" key="SettingsEditor/0.28.1360.712@0.28.1360.712" timestamp="1581592173471" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1579892576483">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
-    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1580664888301">
+    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1581525656300">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580487222237" />
-    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1360.712@0.28.1360.712" timestamp="1580664888301" />
-    <state x="336" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1581081552925">
+    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1360.712@0.28.1360.712" timestamp="1581525656300" />
+    <state x="336" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1581594741972">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
-    <state x="336" y="212" key="com.intellij.ide.util.TipDialog/0.28.1360.712@0.28.1360.712" timestamp="1581081552925" />
+    <state x="336" y="212" key="com.intellij.ide.util.TipDialog/0.28.1360.712@0.28.1360.712" timestamp="1581594741972" />
     <state x="494" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1580480549122">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -279,13 +281,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="495" y="248" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1580481278382" />
-    <state x="342" y="178" width="667" height="412" key="git4idea.merge.GitPullDialog" timestamp="1580655805152">
+    <state x="342" y="178" width="667" height="412" key="git4idea.merge.GitPullDialog" timestamp="1581525650995">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
-    <state x="342" y="178" width="667" height="412" key="git4idea.merge.GitPullDialog/0.28.1360.712@0.28.1360.712" timestamp="1580655805152" />
+    <state x="342" y="178" width="667" height="412" key="git4idea.merge.GitPullDialog/0.28.1360.712@0.28.1360.712" timestamp="1581525650995" />
     <state x="482" y="88" key="refactoring.ChangeSignatureDialog" timestamp="1580488452235">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="482" y="88" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1580488452235" />
+    <state x="339" y="61" width="672" height="678" key="search.everywhere.popup" timestamp="1581538952174">
+      <screen x="0" y="28" width="1360" height="712" />
+    </state>
+    <state x="339" y="61" width="672" height="678" key="search.everywhere.popup/0.28.1360.712@0.28.1360.712" timestamp="1581538952174" />
   </component>
 </project>

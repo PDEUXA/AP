@@ -1,6 +1,7 @@
 import numpy as np
 
 from objects.instance import Instance
+from script.utils import decodage_bier
 
 instance: Instance
 
@@ -65,16 +66,6 @@ def allocation_dispomachine_ASAP(instance, liste, verbose=1):
             for j in instance.jobs_list:
                 print(j)
     return instance.makeSpan
-
-
-def decodage_bier(liste):
-    # decodage vecteur de Bierwith
-    vect_decode = []
-    temp = []
-    for i, elem in enumerate(liste):
-        temp.append(elem)
-        vect_decode.append(temp.count(elem)-1)
-    return np.array(vect_decode)
 
 
 def alloc_avec_liste(instance, liste):
