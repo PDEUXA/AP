@@ -29,10 +29,10 @@ class Individu:
     def __str__(self):
         if type(self.pere) == str:
             return 'ID: {}, Pere: {}, Mere: {}, Cout: {}, Proba: {} %'.format(self.ID, "Adam", "Eve",
-                                                                            self.cout, round(self.proba,2) *100)
+                                                                            self.cout, str(round(self.proba,3) *100))
         else:
-            return 'ID: {}, Pere: {}, Mere: {}, Cout: {}, Proba: {}'.format(self.ID, self.pere.ID, self.mere.ID,
-                                                                            self.cout, round(self.proba,2) *100)
+            return 'ID: {}, Pere: {}, Mere: {}, Cout: {}, Proba: {} %'.format(self.ID, self.pere.ID, self.mere.ID,
+                                                                            self.cout, str(round(self.proba,3) *100))
 
     def __add__(self, other):
         self.population.generation += 1
@@ -47,6 +47,7 @@ class Individu:
 
     def set_Cout(self, cout):
         self.cout = cout
+        self.fitness = 1/self.cout
 
     def set_Proba(self, proba):
         self.proba = proba

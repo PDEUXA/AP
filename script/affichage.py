@@ -1,3 +1,4 @@
+from itertools import count
 from math import log
 
 import plotly.figure_factory as ff
@@ -67,19 +68,22 @@ def net_voisinage(graph):
     d_node = {}
     size = []
     for g in graph.nodes():
-        d_node[g] = graph.nodes[g]['makespan']
+        d_node[g] = str(graph.nodes[g]['makespan'])+'-'+ g
         size.append(graph.nodes[g]['makespan'])
     size = np.array(size)*10/size[0]
-    print(size)
     #d_edge = {}
     #for g in graph.edges():
     #    d_edge[g] = graph.edges[g]['chemin']
+    groups = set(nx.get_node_attributes(graph, 'makespan').values())
+    mapping = dict(zip(sorted(groups), count()))
+    nodes = graph.nodes()
 
+    colors = [mapping[graph.nodes[n]['makespan']] for n in nodes]
     plt.figure(figsize=(8, 8))
     pos = nx.planar_layout(graph)
-    nx.draw(graph, pos, node_labels=d_node, node_color=range(graph.number_of_nodes()),
-            edge_color=range(graph.number_of_edges()), edge_cmap=plt.cm.viridis,
-            node_size=[i**3 for i in size], cmap=plt.cm.viridis)
+    nx.draw(graph, pos, node_labels=d_node, node_color=colors,
+            edge_color=range(graph.number_of_edges()), edge_cmap=plt.cm.jet,
+            node_size=[i**3 for i in size], cmap=plt.cm.jet)
     nx.draw_networkx_labels(graph, pos, d_node)
     #nx.draw_networkx_edge_labels(graph, pos, edge_labels=dict(graph.edges()), width=1.0, alpha=0.5, font_size=9)
     plt.show()
