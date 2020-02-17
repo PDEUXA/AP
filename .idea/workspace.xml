@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/objects/solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heuristique/genetique.py" beforeDir="false" afterPath="$PROJECT_DIR$/heuristique/genetique.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objects/individus.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/individus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/population.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/population.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/thread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/affichage.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/affichage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/instance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/recherche_voisin.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/recherche_voisin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +133,12 @@
       <workItem from="1581679520854" duration="3962000" />
       <workItem from="1581683492488" duration="1731000" />
       <workItem from="1581685233452" duration="3668000" />
-      <workItem from="1581690829361" duration="4501000" />
+      <workItem from="1581690829361" duration="4563000" />
+      <workItem from="1581930594844" duration="1486000" />
+      <workItem from="1581937753134" duration="224000" />
+      <workItem from="1581937986454" duration="2718000" />
+      <workItem from="1581940713692" duration="4744000" />
+      <workItem from="1581946568378" duration="6895000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>
@@ -191,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581595508678</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Algo genetique v1.1&#10;modification recherche_voisin en OO">
+      <created>1581695361985</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581695361985</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +231,8 @@
     <MESSAGE value="Ajout du calcul du chemin critique" />
     <MESSAGE value="MaJ du calcul du chemin critique&#10;MaJ résultat dans un dataframe&#10;Maj Marge&#10;Maj Index chemin critique" />
     <MESSAGE value="debut algo genetique" />
-    <option name="LAST_COMMIT_MESSAGE" value="debut algo genetique" />
+    <MESSAGE value="Algo genetique v1.1&#10;modification recherche_voisin en OO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algo genetique v1.1&#10;modification recherche_voisin en OO" />
   </component>
   <component name="WindowStateProjectService">
     <state x="388" y="189" width="567" height="389" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580985627212">
@@ -230,35 +243,35 @@
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="416" y="240" width="520" height="287" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.28.1360.712@0.28.1360.712" timestamp="1581592097821" />
-    <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2" timestamp="1581595508595">
+    <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2" timestamp="1581695361527">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580487213262" />
-    <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1581595508595" />
+    <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1581695361527" />
     <state x="463" y="142" width="426" height="483" key="FileChooserDialogImpl" timestamp="1581064879031">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="463" y="142" width="426" height="483" key="FileChooserDialogImpl/0.28.1360.712@0.28.1360.712" timestamp="1581064879031" />
-    <state width="1314" height="2" key="GridCell.Tab.0.bottom" timestamp="1581695149600">
+    <state width="1314" height="116" key="GridCell.Tab.0.bottom" timestamp="1581971133969">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580489659464" />
-    <state width="1314" height="2" key="GridCell.Tab.0.bottom/0.28.1360.712@0.28.1360.712" timestamp="1581695149600" />
-    <state width="1314" height="2" key="GridCell.Tab.0.center" timestamp="1581695149599">
+    <state width="1314" height="116" key="GridCell.Tab.0.bottom/0.28.1360.712@0.28.1360.712" timestamp="1581971133969" />
+    <state width="1314" height="116" key="GridCell.Tab.0.center" timestamp="1581971133968">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580489659463" />
-    <state width="1314" height="2" key="GridCell.Tab.0.center/0.28.1360.712@0.28.1360.712" timestamp="1581695149599" />
-    <state width="1314" height="2" key="GridCell.Tab.0.left" timestamp="1581695149599">
+    <state width="1314" height="116" key="GridCell.Tab.0.center/0.28.1360.712@0.28.1360.712" timestamp="1581971133968" />
+    <state width="1314" height="116" key="GridCell.Tab.0.left" timestamp="1581971133968">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580489659462" />
-    <state width="1314" height="2" key="GridCell.Tab.0.left/0.28.1360.712@0.28.1360.712" timestamp="1581695149599" />
-    <state width="1314" height="2" key="GridCell.Tab.0.right" timestamp="1581695149599">
+    <state width="1314" height="116" key="GridCell.Tab.0.left/0.28.1360.712@0.28.1360.712" timestamp="1581971133968" />
+    <state width="1314" height="116" key="GridCell.Tab.0.right" timestamp="1581971133968">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580489659464" />
-    <state width="1314" height="2" key="GridCell.Tab.0.right/0.28.1360.712@0.28.1360.712" timestamp="1581695149599" />
+    <state width="1314" height="116" key="GridCell.Tab.0.right/0.28.1360.712@0.28.1360.712" timestamp="1581971133968" />
     <state x="144" y="79" key="MergeDialog" timestamp="1580480626463">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -281,15 +294,23 @@
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
     <state width="498" height="398" key="SwitcherDM/0.28.1360.712@0.28.1360.712" timestamp="1581683561833" />
-    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1581595510373">
+    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1581695370685">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580487222237" />
-    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1360.712@0.28.1360.712" timestamp="1581595510373" />
-    <state x="336" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1581690829248">
+    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1360.712@0.28.1360.712" timestamp="1581695370685" />
+    <state width="681" height="356" key="XDebugger.FullValuePopup" timestamp="1581946677089">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
-    <state x="336" y="212" key="com.intellij.ide.util.TipDialog/0.28.1360.712@0.28.1360.712" timestamp="1581690829248" />
+    <state width="681" height="356" key="XDebugger.FullValuePopup/0.28.1360.712@0.28.1360.712" timestamp="1581946677089" />
+    <state x="336" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1581946568205">
+      <screen x="0" y="28" width="1360" height="712" />
+    </state>
+    <state x="336" y="212" key="com.intellij.ide.util.TipDialog/0.28.1360.712@0.28.1360.712" timestamp="1581946568205" />
+    <state x="344" y="28" width="664" height="711" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581940493801">
+      <screen x="0" y="28" width="1360" height="712" />
+    </state>
+    <state x="344" y="28" width="664" height="711" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.28.1360.712@0.28.1360.712" timestamp="1581940493801" />
     <state x="494" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1580480549122">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

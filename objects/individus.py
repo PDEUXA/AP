@@ -13,13 +13,13 @@ class Individu:
         self.pere = pere
         self.mere = mere
         self.mutationplace= []
+        self.sequence = sequence
+        self.hash = hashlib.blake2s(str(self.sequence).encode(), key=b'AP', digest_size=2).hexdigest()
+
         if type(self.pere) != str:
             self.generation = max(self.pere.generation, self.mere.generation) + 1
         else:
             self.generation = self.population.generation
-
-        self.sequence = sequence
-        self.hash = hashlib.blake2s(str(self.sequence).encode(), key=b'AP', digest_size=2).hexdigest()
 
         if self.generation == 0:
             self.ID = str(self.generation) + '-' + self.hash + '-A&E '

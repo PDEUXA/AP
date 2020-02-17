@@ -1,4 +1,6 @@
 import random
+import time
+
 import numpy as np
 from heuristique.heuristique_gloutonne import heuristique_gloutone
 from heuristique.ordo_avec_liste import alloc_avec_liste
@@ -14,6 +16,24 @@ indv: Individu
 pere: Individu
 mere: Individu
 enfant: Individu
+
+def main_genetique(pop, data, selec = 25, crois = 100, gene = 100):
+    genese(crois, data, pop, data)
+    temps1 = time.time()
+    temps2 = 0
+    while pop.generation <= gene and temps2 < 500:
+        print("Géneration: ", pop.generation)
+        evaluation(pop, data)
+        selection(pop, selec)
+        croisement(pop, n=crois)
+        evaluation(pop, data)
+        if pop.change == True:
+            print("==========================Nouvel elite !==========================")
+            print(pop.elite)
+            print("Facteur demuta:", pop.facteurMutation)
+    temps2 = time.time()-temps1
+    print("Optimum :", pop.elite)
+    print("Temps de recheche:", time.time()-temps1)
 
 def genese(n, data, population, methode):
     # Génération de la population initiale
@@ -49,12 +69,46 @@ def selection(population, n):
     for indv in tirage:
         population.add_Indv(indv)
     # On ajoute 5 elite à la selction
-    for i in range(3):
+    for i in range(int(n*0.1)):
         population.add_Indv(copy.copy(population.elite))
 
     population.calc_Proba_rg()
 
-    return population.elite
+
+def croisement(population, alpha = 0.85, n = 1):
+ #Cross over
+    temp_proba = []
+    for indv in population.individu:
+        temp_proba.append(indv.proba)
+
+    enfant = []
+    while len(enfant) <= n:
+        rnd = random.random()
+        if alpha > rnd:
+            pere, mere = np.random.choice(population.individu, size=2, replace=False, p=temp_proba)
+
+            temp = ['o']*len(pere.sequence)
+            pere_gene = decodage_gene(pere.sequence)
+            mere_gene = decodage_gene(mere.sequence)
+
+            rnd = np.random.randint(0, 1+1, population.nb_jobs)
+            for i, e1 in enumerate(pere_gene):
+                if rnd[int(e1[1])] == 1:
+                    if e1 not in temp:
+                        temp[i] = e1
+
+            c = np.setdiff1d(mere_gene, temp, assume_unique = True)
+            it = iter(c)
+            for j, elem in enumerate(temp):
+                if elem == 'o':
+                    temp[j] = next(it)
+
+            enfant.append(Individu(population, pere, mere, sequence=codage_gene(temp)))
+            mutation(enfant[-1],population)
+            enfant[-1].croisement = True
+    for e in enfant:
+        population.add_Indv(e)
+
 
 def mutation(enfant,population, beta=0.2):
     beta = beta / len(enfant.sequence) * (population.facteurMutation)
@@ -72,35 +126,6 @@ def mutation(enfant,population, beta=0.2):
             pass
 
 
-def croisement(population, alpha = 0.85, operateur = 1):
- #Cross over
-    temp_proba = []
-    for indv in population.individu:
-        temp_proba.append(indv.proba)
-    rnd = random.random()
-    if alpha > rnd:
-        pere, mere = np.random.choice(population.individu, size=2, replace=False, p=temp_proba)
-
-        temp = ['o']*len(pere.sequence)
-        pere_gene = decodage_gene(pere.sequence)
-        mere_gene = decodage_gene(mere.sequence)
-
-        rnd = np.random.randint(0, 1+1, population.nb_jobs)
-        for i, e1 in enumerate(pere_gene):
-            if rnd[int(e1[1])] == 1:
-                if e1 not in temp:
-                    temp[i] = e1
-
-        c = np.setdiff1d(mere_gene, temp, assume_unique = True)
-        it = iter(c)
-        for j, elem in enumerate(temp):
-            if elem == 'o':
-                temp[j] = next(it)
-
-        enfant = Individu(population, pere, mere, sequence=codage_gene(temp))
-        mutation(enfant,population)
-        enfant.croisement = True
-        population.add_Indv(enfant)
 
 # def croisement(population, alpha = 0.8, operateur = 1):
 #     # Croisement de deux individus, opérateur en 1 points (marche pas bien)

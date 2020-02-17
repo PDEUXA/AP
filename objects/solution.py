@@ -36,7 +36,9 @@ class Solution:
 
     def best_vois(self, n):
         if self.voisin:
-            best = sorted(self.voisin, key=operator.attrgetter('makeSpan'))
+            best = set(self.voisin)
+            best = list(best)
+            best = sorted(best, key=operator.attrgetter('makeSpan'))
             return best[:n]
         else:
             return None

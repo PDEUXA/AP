@@ -60,39 +60,40 @@ def permutation_random(liste, nombre):
     return liste_permut
 
 
-def exploration_voisinage(solution, data, n =1 , max_depth = 6):
+def exploration_voisinage(solution, data, n=1, max_depth=6):
     graph = nx.MultiDiGraph()
-    ecart = 0
-    to_be_explored =[]
+    ecart = 10
+    to_be_explored = []
     solution.voisinage()
     to_be_explored.append(solution)
     graph.add_node(solution.nom, makespan=solution.makeSpan)
     depth = 0
-    while to_be_explored:
-        if depth < max_depth:
-            if ecart < -0.05:
+    alert = 0
+    while to_be_explored and depth < max_depth:
+        if ecart < 0:
+            alert += 1
+            if alert == 30 and to_be_explored:
                 print("Stagnation du makespan")
                 break
+        else:
+            alert = 0
             depth = to_be_explored[0].depth
             to_be_explored, ecart = explore_deeper(to_be_explored, graph, n)
-        elif depth == max_depth:
-            print("Profondeur atteinte")
-            break
+
     return graph
 
 
 def explore_deeper(to_be_explored, graph, n):
-        origine = to_be_explored[0]
-        origine.voisinage()
-        best_vois = origine.best_vois(n)
-        to_be_explored.pop(0)
-        for b in best_vois:
-            to_be_explored.append(b)
-            graph.add_node(b.nom, makespan=b.makeSpan)
-            graph.add_edge(b.root.nom, b.nom, chemin=str(b.root.nom)+'/'+str(b.nom))
-            ecart = (origine.makeSpan - b.makeSpan)/origine.makeSpan
-            print("Root: ", origine.nom, "Voisinage: ", b.nom, " ,makeSpan: ", b.makeSpan, '/', origine.makeSpan,
-                  " ,écart: ", ecart)
-            print(b.sequence)
-        return to_be_explored, ecart
-
+    origine = to_be_explored[0]
+    origine.voisinage()
+    best_vois = origine.best_vois(n)
+    to_be_explored.pop(0)
+    for b in best_vois:
+        to_be_explored.append(b)
+        graph.add_node(b.nom, makespan=b.makeSpan)
+        graph.add_edge(b.root.nom, b.nom, chemin=str(b.root.nom) + '/' + str(b.nom))
+        ecart = (origine.makeSpan - b.makeSpan) / origine.makeSpan
+        print("Root: ", origine.nom, "Voisinage: ", b.nom, " ,makeSpan: ", b.makeSpan, '/', origine.makeSpan,
+              " ,écart: ", ecart)
+        print(b.sequence)
+    return to_be_explored, ecart

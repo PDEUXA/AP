@@ -1,7 +1,7 @@
 import json
 
 
-def loader(name='abz5'):
+def loader(name='abz5', ensemble = True):
     # Input: String, the name of a instances listed in the json file
     # Output:
     #  -number of machine
@@ -11,9 +11,14 @@ def loader(name='abz5'):
         data = json.load(json_data)
 
         for i, f in enumerate(data):
-            if f['name'] == name:
-                index = i
-                break
+            if ensemble == True:
+                if f['name'] == name:
+                    index = i
+                    break
+            else:
+                if f['name'][:2] == name:
+                    index = i
+                    break
         nb_machine = data[index]['machines']
         nb_jobs = data[index]['jobs']
         optimum = data[index]['optimum']
@@ -22,8 +27,12 @@ def loader(name='abz5'):
     file = open("data/instances/" + name, "r")
     tab = []
     for i, line in enumerate(file):
-        if i > 4:
-            tab.append([int(e) for e in line.split()])
+        if name[:2]== 'ta':
+            if i > 0:
+                tab.append([int(e) for e in line.split()])
+        else:
+            if i > 4:
+                tab.append([int(e) for e in line.split()])
 
     return {"nb_machine":nb_machine, "nb_jobs":nb_jobs, "problem":tab}, optimum
 

@@ -22,7 +22,7 @@ class Instance:
             self.jobs_list.append(Job(i, self.problem[i], self.resource_list, self))
 
     def __str__(self):
-        return '{}'.format(self.problem)
+        return '{}'.format(self.makeSpan)
 
     def set_state(self):
         self.state = "Solved"
