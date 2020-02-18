@@ -1,0 +1,186 @@
+Instance: ft10
+Heuristique: exploration_voisinage
+Temps: 792.0577666759491
+Itérations: 56
+Séquence finale: [0 4 6 7 4 6 6 4 0 4 5 1 8 1 5 6 0 5 4 7 4 5 3 8 3 6 1 4 6 4 6 0 5 7 8 3 4
+ 7 9 6 0 3 1 4 0 1 5 2 8 9 6 9 0 5 8 7 1 0 9 3 9 6 2 5 3 0 9 5 8 5 2 3 7 8
+ 2 0 9 7 1 9 8 8 2 1 2 2 8 7 7 2 3 1 9 3 1 3 9 7 2 2],
+ cbef
+MakeSpan: 997
+================== Paramètre(s): ==================
+n: 2
+max_depth: 30
+crit_stagnation: 40
+Séquence de départ: [0 4 6 7 4 1 5 4 0 4 6 6 8 1 5 3 5 4 7 4 5 0 6 8 3 6 1 4 6 4 6 0 5 7 8 3 4
+ 7 9 6 0 3 1 4 0 1 5 2 8 9 6 9 0 5 8 7 1 0 9 3 9 6 2 5 8 0 9 5 8 5 2 3 1 8
+ 2 0 9 7 1 9 3 8 2 9 1 3 2 7 7 8 2 2 7 3 1 3 9 7 2 2]
+====================== Logs =======================
+Profondeur: 0 , Root:  3b6d , Voisinage:  2508 , makeSpan:  1038 / 1074 , écart:  0.034 %
+Profondeur: 0 , Root:  3b6d , Voisinage:  2508 , makeSpan:  1038 / 1074 , écart:  0.034 %
+0
+Profondeur: 1 , Root:  2508 , Voisinage:  6e66 , makeSpan:  1028 / 1038 , écart:  0.01 %
+Profondeur: 1 , Root:  2508 , Voisinage:  4e8c , makeSpan:  1028 / 1038 , écart:  0.01 %
+0
+Profondeur: 1 , Root:  2508 , Voisinage:  6e66 , makeSpan:  1028 / 1038 , écart:  0.01 %
+Profondeur: 1 , Root:  2508 , Voisinage:  4e8c , makeSpan:  1028 / 1038 , écart:  0.01 %
+0
+Profondeur: 2 , Root:  6e66 , Voisinage:  2a5b , makeSpan:  1025 / 1028 , écart:  0.003 %
+Profondeur: 2 , Root:  6e66 , Voisinage:  f9b4 , makeSpan:  1025 / 1028 , écart:  0.003 %
+1
+Profondeur: 2 , Root:  4e8c , Voisinage:  757f , makeSpan:  1025 / 1028 , écart:  0.003 %
+Profondeur: 2 , Root:  4e8c , Voisinage:  b238 , makeSpan:  1025 / 1028 , écart:  0.003 %
+0
+Profondeur: 2 , Root:  6e66 , Voisinage:  2a5b , makeSpan:  1025 / 1028 , écart:  0.003 %
+Profondeur: 2 , Root:  6e66 , Voisinage:  f9b4 , makeSpan:  1025 / 1028 , écart:  0.003 %
+1
+Profondeur: 2 , Root:  4e8c , Voisinage:  757f , makeSpan:  1025 / 1028 , écart:  0.003 %
+Profondeur: 2 , Root:  4e8c , Voisinage:  b238 , makeSpan:  1025 / 1028 , écart:  0.003 %
+2
+Profondeur: 3 , Root:  2a5b , Voisinage:  c213 , makeSpan:  1005 / 1025 , écart:  0.02 %
+Profondeur: 3 , Root:  2a5b , Voisinage:  cedf , makeSpan:  1005 / 1025 , écart:  0.02 %
+3
+Profondeur: 3 , Root:  f9b4 , Voisinage:  1122 , makeSpan:  1005 / 1025 , écart:  0.02 %
+Profondeur: 3 , Root:  f9b4 , Voisinage:  f705 , makeSpan:  1015 / 1025 , écart:  0.01 %
+0
+Profondeur: 3 , Root:  757f , Voisinage:  05e0 , makeSpan:  1005 / 1025 , écart:  0.02 %
+Profondeur: 3 , Root:  757f , Voisinage:  f45b , makeSpan:  1005 / 1025 , écart:  0.02 %
+1
+Profondeur: 3 , Root:  b238 , Voisinage:  846e , makeSpan:  1005 / 1025 , écart:  0.02 %
+Profondeur: 3 , Root:  b238 , Voisinage:  55e9 , makeSpan:  1015 / 1025 , écart:  0.01 %
+2
+Profondeur: 3 , Root:  2a5b , Voisinage:  c213 , makeSpan:  1005 / 1025 , écart:  0.02 %
+Profondeur: 3 , Root:  2a5b , Voisinage:  cedf , makeSpan:  1005 / 1025 , écart:  0.02 %
+3
+Profondeur: 3 , Root:  f9b4 , Voisinage:  1122 , makeSpan:  1005 / 1025 , écart:  0.02 %
+Profondeur: 3 , Root:  f9b4 , Voisinage:  f705 , makeSpan:  1015 / 1025 , écart:  0.01 %
+4
+Profondeur: 3 , Root:  757f , Voisinage:  05e0 , makeSpan:  1005 / 1025 , écart:  0.02 %
+Profondeur: 3 , Root:  757f , Voisinage:  f45b , makeSpan:  1005 / 1025 , écart:  0.02 %
+5
+Profondeur: 3 , Root:  b238 , Voisinage:  846e , makeSpan:  1005 / 1025 , écart:  0.02 %
+Profondeur: 3 , Root:  b238 , Voisinage:  55e9 , makeSpan:  1015 / 1025 , écart:  0.01 %
+6
+Profondeur: 4 , Root:  c213 , Voisinage:  74c4 , makeSpan:  997 / 1005 , écart:  0.008 %
+Profondeur: 4 , Root:  c213 , Voisinage:  cbef , makeSpan:  997 / 1005 , écart:  0.008 %
+7
+Profondeur: 4 , Root:  cedf , Voisinage:  1213 , makeSpan:  997 / 1005 , écart:  0.008 %
+Profondeur: 4 , Root:  cedf , Voisinage:  a710 , makeSpan:  997 / 1005 , écart:  0.008 %
+0
+Profondeur: 4 , Root:  1122 , Voisinage:  fde9 , makeSpan:  997 / 1005 , écart:  0.008 %
+Profondeur: 4 , Root:  1122 , Voisinage:  ceb4 , makeSpan:  997 / 1005 , écart:  0.008 %
+1
+Profondeur: 4 , Root:  f705 , Voisinage:  c096 , makeSpan:  1014 / 1015 , écart:  0.001 %
+Profondeur: 4 , Root:  f705 , Voisinage:  6287 , makeSpan:  1014 / 1015 , écart:  0.001 %
+2
+Profondeur: 4 , Root:  05e0 , Voisinage:  6f8c , makeSpan:  997 / 1005 , écart:  0.008 %
+Profondeur: 4 , Root:  05e0 , Voisinage:  21ba , makeSpan:  997 / 1005 , écart:  0.008 %
+3
+Profondeur: 4 , Root:  f45b , Voisinage:  0475 , makeSpan:  997 / 1005 , écart:  0.008 %
+Profondeur: 4 , Root:  f45b , Voisinage:  f456 , makeSpan:  997 / 1005 , écart:  0.008 %
+4
+Profondeur: 4 , Root:  846e , Voisinage:  609f , makeSpan:  997 / 1005 , écart:  0.008 %
+Profondeur: 4 , Root:  846e , Voisinage:  5e44 , makeSpan:  997 / 1005 , écart:  0.008 %
+5
+Profondeur: 4 , Root:  55e9 , Voisinage:  d596 , makeSpan:  1014 / 1015 , écart:  0.001 %
+Profondeur: 4 , Root:  55e9 , Voisinage:  c460 , makeSpan:  1014 / 1015 , écart:  0.001 %
+6
+Profondeur: 4 , Root:  c213 , Voisinage:  74c4 , makeSpan:  997 / 1005 , écart:  0.008 %
+Profondeur: 4 , Root:  c213 , Voisinage:  cbef , makeSpan:  997 / 1005 , écart:  0.008 %
+7
+Profondeur: 4 , Root:  cedf , Voisinage:  1213 , makeSpan:  997 / 1005 , écart:  0.008 %
+Profondeur: 4 , Root:  cedf , Voisinage:  a710 , makeSpan:  997 / 1005 , écart:  0.008 %
+8
+Profondeur: 4 , Root:  1122 , Voisinage:  fde9 , makeSpan:  997 / 1005 , écart:  0.008 %
+Profondeur: 4 , Root:  1122 , Voisinage:  ceb4 , makeSpan:  997 / 1005 , écart:  0.008 %
+9
+Profondeur: 4 , Root:  f705 , Voisinage:  c096 , makeSpan:  1014 / 1015 , écart:  0.001 %
+Profondeur: 4 , Root:  f705 , Voisinage:  6287 , makeSpan:  1014 / 1015 , écart:  0.001 %
+10
+Profondeur: 4 , Root:  05e0 , Voisinage:  6f8c , makeSpan:  997 / 1005 , écart:  0.008 %
+Profondeur: 4 , Root:  05e0 , Voisinage:  21ba , makeSpan:  997 / 1005 , écart:  0.008 %
+11
+Profondeur: 4 , Root:  f45b , Voisinage:  0475 , makeSpan:  997 / 1005 , écart:  0.008 %
+Profondeur: 4 , Root:  f45b , Voisinage:  f456 , makeSpan:  997 / 1005 , écart:  0.008 %
+12
+Profondeur: 4 , Root:  846e , Voisinage:  609f , makeSpan:  997 / 1005 , écart:  0.008 %
+Profondeur: 4 , Root:  846e , Voisinage:  5e44 , makeSpan:  997 / 1005 , écart:  0.008 %
+13
+Profondeur: 4 , Root:  55e9 , Voisinage:  d596 , makeSpan:  1014 / 1015 , écart:  0.001 %
+Profondeur: 4 , Root:  55e9 , Voisinage:  c460 , makeSpan:  1014 / 1015 , écart:  0.001 %
+14
+Profondeur: 5 , Root:  74c4 , Voisinage:  e00d , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  74c4 , Voisinage:  8909 , makeSpan:  997 / 997 , écart:  0.0 %
+15
+Profondeur: 5 , Root:  cbef , Voisinage:  284d , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  cbef , Voisinage:  e720 , makeSpan:  997 / 997 , écart:  0.0 %
+16
+Profondeur: 5 , Root:  1213 , Voisinage:  676c , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  1213 , Voisinage:  8a05 , makeSpan:  997 / 997 , écart:  0.0 %
+17
+Profondeur: 5 , Root:  a710 , Voisinage:  41be , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  a710 , Voisinage:  d5b7 , makeSpan:  997 / 997 , écart:  0.0 %
+18
+Profondeur: 5 , Root:  fde9 , Voisinage:  4110 , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  fde9 , Voisinage:  a6c6 , makeSpan:  997 / 997 , écart:  0.0 %
+19
+Profondeur: 5 , Root:  ceb4 , Voisinage:  8a5d , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  ceb4 , Voisinage:  6a53 , makeSpan:  997 / 997 , écart:  0.0 %
+20
+Profondeur: 5 , Root:  c096 , Voisinage:  2bd2 , makeSpan:  1005 / 1014 , écart:  0.009 %
+Profondeur: 5 , Root:  c096 , Voisinage:  c7bc , makeSpan:  1005 / 1014 , écart:  0.009 %
+21
+Profondeur: 5 , Root:  6287 , Voisinage:  869c , makeSpan:  1005 / 1014 , écart:  0.009 %
+Profondeur: 5 , Root:  6287 , Voisinage:  afff , makeSpan:  1005 / 1014 , écart:  0.009 %
+22
+Profondeur: 5 , Root:  6f8c , Voisinage:  81f6 , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  6f8c , Voisinage:  c2a2 , makeSpan:  997 / 997 , écart:  0.0 %
+23
+Profondeur: 5 , Root:  21ba , Voisinage:  2f1a , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  21ba , Voisinage:  bc2c , makeSpan:  997 / 997 , écart:  0.0 %
+24
+Profondeur: 5 , Root:  0475 , Voisinage:  1035 , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  0475 , Voisinage:  691e , makeSpan:  997 / 997 , écart:  0.0 %
+25
+Profondeur: 5 , Root:  f456 , Voisinage:  780f , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  f456 , Voisinage:  1051 , makeSpan:  997 / 997 , écart:  0.0 %
+26
+Profondeur: 5 , Root:  609f , Voisinage:  5b99 , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  609f , Voisinage:  417c , makeSpan:  997 / 997 , écart:  0.0 %
+27
+Profondeur: 5 , Root:  5e44 , Voisinage:  6d67 , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  5e44 , Voisinage:  0318 , makeSpan:  997 / 997 , écart:  0.0 %
+28
+Profondeur: 5 , Root:  d596 , Voisinage:  df79 , makeSpan:  1005 / 1014 , écart:  0.009 %
+Profondeur: 5 , Root:  d596 , Voisinage:  193c , makeSpan:  1005 / 1014 , écart:  0.009 %
+29
+Profondeur: 5 , Root:  c460 , Voisinage:  1c8d , makeSpan:  1005 / 1014 , écart:  0.009 %
+Profondeur: 5 , Root:  c460 , Voisinage:  4082 , makeSpan:  1005 / 1014 , écart:  0.009 %
+30
+Profondeur: 5 , Root:  74c4 , Voisinage:  e00d , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  74c4 , Voisinage:  8909 , makeSpan:  997 / 997 , écart:  0.0 %
+31
+Profondeur: 5 , Root:  cbef , Voisinage:  284d , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  cbef , Voisinage:  e720 , makeSpan:  997 / 997 , écart:  0.0 %
+32
+Profondeur: 5 , Root:  1213 , Voisinage:  676c , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  1213 , Voisinage:  8a05 , makeSpan:  997 / 997 , écart:  0.0 %
+33
+Profondeur: 5 , Root:  a710 , Voisinage:  41be , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  a710 , Voisinage:  d5b7 , makeSpan:  997 / 997 , écart:  0.0 %
+34
+Profondeur: 5 , Root:  fde9 , Voisinage:  4110 , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  fde9 , Voisinage:  a6c6 , makeSpan:  997 / 997 , écart:  0.0 %
+35
+Profondeur: 5 , Root:  ceb4 , Voisinage:  8a5d , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  ceb4 , Voisinage:  6a53 , makeSpan:  997 / 997 , écart:  0.0 %
+36
+Profondeur: 5 , Root:  c096 , Voisinage:  2bd2 , makeSpan:  1005 / 1014 , écart:  0.009 %
+Profondeur: 5 , Root:  c096 , Voisinage:  c7bc , makeSpan:  1005 / 1014 , écart:  0.009 %
+37
+Profondeur: 5 , Root:  6287 , Voisinage:  869c , makeSpan:  1005 / 1014 , écart:  0.009 %
+Profondeur: 5 , Root:  6287 , Voisinage:  afff , makeSpan:  1005 / 1014 , écart:  0.009 %
+38
+Profondeur: 5 , Root:  6f8c , Voisinage:  81f6 , makeSpan:  997 / 997 , écart:  0.0 %
+Profondeur: 5 , Root:  6f8c , Voisinage:  c2a2 , makeSpan:  997 / 997 , écart:  0.0 %
+39
+Stagnation du makespan

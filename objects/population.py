@@ -1,12 +1,7 @@
 import operator
-
-import numpy as np
-
-from heuristique.ordo_avec_liste import alloc_avec_liste
 from objects.individus import Individu
 
 indv: Individu
-
 
 class Population:
     def __init__(self, **attributes):
@@ -19,7 +14,7 @@ class Population:
         self.opti = 100000
         self.change = False
         self.generationSsChgt = 0
-        self.facteurMutation = 0.2 * (self.generationSsChgt + 1)*2/10
+        self.facteurMutation = 0.2 * (self.generationSsChgt + 1) * 2 / 10
 
     def __str__(self):
         return self.nombre
@@ -34,7 +29,6 @@ class Population:
             if self.generation < indv.generation:
                 self.generation = indv.generation
                 self.change = False
-
 
     def reset_Indv(self):
         self.individu = []
@@ -56,7 +50,7 @@ class Population:
                 self.opti = indv.cout
                 self.elite = indv
                 self.change = True
-            indv.set_Proba((i+1) / (self.nombre * (self.nombre + 1) / 2))
+            indv.set_Proba((i + 1) / (self.nombre * (self.nombre + 1) / 2))
 
     def has_Changed(self):
         if self.change:
@@ -64,7 +58,3 @@ class Population:
         else:
             self.generationSsChgt += 1
             self.facteurMutation = 0.2 * (self.generationSsChgt + 1) * 2 / 10
-
-
-
-

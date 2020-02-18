@@ -1,0 +1,100 @@
+Instance: la01
+Heuristique: exploration_voisinage
+Temps: 83.46181583404541
+Itérations: 42
+Séquence finale: [0 1 7 8 9 2 4 8 1 5 8 2 8 4 5 3 6 0 4 1 7 2 9 6 1 4 5 7 9 3 5 9 6 3 2 1 7
+ 4 8 5 3 2 3 6 0 7 9 0 6 0],
+ 9cc18f
+MakeSpan: 697
+================== Paramètre(s): ==================
+n: 2
+max_depth: 30
+crit_stagnation: 40
+Séquence de départ: [0 1 7 8 9 2 4 8 1 5 8 2 8 4 5 3 6 0 4 1 7 2 9 6 1 4 2 3 7 8 4 7 1 2 3 6 9
+ 5 3 9 7 5 3 6 0 5 9 0 6 0]
+====================== Logs =======================
+Profondeur: 0 , Root:  256f7d , Voisinage:  e6dc45 , makeSpan:  734 / 769 , écart:  0.046 %
+Profondeur: 0 , Root:  256f7d , Voisinage:  e6dc45 , makeSpan:  734 / 769 , écart:  0.046 %
+Profondeur: 1 , Root:  e6dc45 , Voisinage:  8fda89 , makeSpan:  697 / 734 , écart:  0.05 %
+Profondeur: 1 , Root:  e6dc45 , Voisinage:  9cc18f , makeSpan:  708 / 734 , écart:  0.035 %
+Profondeur: 1 , Root:  e6dc45 , Voisinage:  8fda89 , makeSpan:  697 / 734 , écart:  0.05 %
+Profondeur: 1 , Root:  e6dc45 , Voisinage:  9cc18f , makeSpan:  708 / 734 , écart:  0.035 %
+Profondeur: 2 , Root:  8fda89 , Voisinage:  fee193 , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 2 , Root:  8fda89 , Voisinage:  735bfb , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 2 , Root:  9cc18f , Voisinage:  249017 , makeSpan:  697 / 708 , écart:  0.016 %
+Profondeur: 2 , Root:  9cc18f , Voisinage:  b5c779 , makeSpan:  697 / 708 , écart:  0.016 %
+Profondeur: 2 , Root:  8fda89 , Voisinage:  fee193 , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 2 , Root:  8fda89 , Voisinage:  735bfb , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 2 , Root:  9cc18f , Voisinage:  249017 , makeSpan:  697 / 708 , écart:  0.016 %
+Profondeur: 2 , Root:  9cc18f , Voisinage:  b5c779 , makeSpan:  697 / 708 , écart:  0.016 %
+Deja exploré, Voisinage:  8fda89
+Profondeur: 3 , Root:  fee193 , Voisinage:  d9033d , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 3 , Root:  735bfb , Voisinage:  7beb49 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  8fda89
+Profondeur: 3 , Root:  249017 , Voisinage:  19eae5 , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 3 , Root:  249017 , Voisinage:  760dcb , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 3 , Root:  b5c779 , Voisinage:  624c24 , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 3 , Root:  b5c779 , Voisinage:  b48fcf , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  8fda89
+Profondeur: 3 , Root:  fee193 , Voisinage:  d9033d , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 3 , Root:  735bfb , Voisinage:  7beb49 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  8fda89
+Profondeur: 3 , Root:  249017 , Voisinage:  19eae5 , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 3 , Root:  249017 , Voisinage:  760dcb , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 3 , Root:  b5c779 , Voisinage:  624c24 , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 3 , Root:  b5c779 , Voisinage:  b48fcf , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 4 , Root:  d9033d , Voisinage:  ecccf0 , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 4 , Root:  d9033d , Voisinage:  fc760f , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 4 , Root:  7beb49 , Voisinage:  a05a93 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  735bfb
+Deja exploré, Voisinage:  249017
+Profondeur: 4 , Root:  19eae5 , Voisinage:  405e5c , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 4 , Root:  760dcb , Voisinage:  4cc0f8 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  249017
+Profondeur: 4 , Root:  624c24 , Voisinage:  ad62c4 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  b5c779
+Profondeur: 4 , Root:  b48fcf , Voisinage:  9b432d , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  b5c779
+Profondeur: 4 , Root:  d9033d , Voisinage:  ecccf0 , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 4 , Root:  d9033d , Voisinage:  fc760f , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 4 , Root:  7beb49 , Voisinage:  a05a93 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  735bfb
+Deja exploré, Voisinage:  249017
+Profondeur: 4 , Root:  19eae5 , Voisinage:  405e5c , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 4 , Root:  760dcb , Voisinage:  4cc0f8 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  249017
+Profondeur: 4 , Root:  624c24 , Voisinage:  ad62c4 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  b5c779
+Profondeur: 4 , Root:  b48fcf , Voisinage:  9b432d , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  b5c779
+Deja exploré, Voisinage:  d9033d
+Profondeur: 5 , Root:  ecccf0 , Voisinage:  b31233 , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 5 , Root:  fc760f , Voisinage:  e6b07e , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  d9033d
+Deja exploré, Voisinage:  7beb49
+Deja exploré, Voisinage:  a05a93
+Profondeur: 5 , Root:  405e5c , Voisinage:  c566a3 , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 5 , Root:  405e5c , Voisinage:  b82b8d , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 5 , Root:  4cc0f8 , Voisinage:  3f65f1 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  760dcb
+Profondeur: 5 , Root:  ad62c4 , Voisinage:  01d267 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  624c24
+Profondeur: 5 , Root:  9b432d , Voisinage:  c73f27 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  b48fcf
+Deja exploré, Voisinage:  d9033d
+Profondeur: 5 , Root:  ecccf0 , Voisinage:  b31233 , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 5 , Root:  fc760f , Voisinage:  e6b07e , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  d9033d
+Deja exploré, Voisinage:  7beb49
+Deja exploré, Voisinage:  a05a93
+Profondeur: 5 , Root:  405e5c , Voisinage:  c566a3 , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 5 , Root:  405e5c , Voisinage:  b82b8d , makeSpan:  697 / 697 , écart:  0.0 %
+Profondeur: 5 , Root:  4cc0f8 , Voisinage:  3f65f1 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  760dcb
+Profondeur: 5 , Root:  ad62c4 , Voisinage:  01d267 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  624c24
+Profondeur: 5 , Root:  9b432d , Voisinage:  c73f27 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  b48fcf
+Profondeur: 6 , Root:  b31233 , Voisinage:  fd1ee7 , makeSpan:  697 / 697 , écart:  0.0 %
+Deja exploré, Voisinage:  ecccf0
+Stagnation du makespan

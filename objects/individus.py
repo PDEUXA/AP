@@ -1,6 +1,4 @@
 import hashlib
-import random
-import numpy as np
 
 
 class Individu:
@@ -8,11 +6,11 @@ class Individu:
         self.cout = "N/A"
         self.proba = 0
         self.population = population
-        self.croisement = False
-        self.mutation = False
+        self.__croisement = False
+        self.__mutation = False
         self.pere = pere
         self.mere = mere
-        self.mutationplace= []
+        self.__mutationplace = []
         self.sequence = sequence
         self.hash = hashlib.blake2s(str(self.sequence).encode(), key=b'AP', digest_size=2).hexdigest()
 
@@ -29,38 +27,23 @@ class Individu:
     def __str__(self):
         if type(self.pere) == str:
             return 'ID: {}, Pere: {}, Mere: {}, Cout: {}, Proba: {} %'.format(self.ID, "Adam", "Eve",
-                                                                            self.cout, str(round(self.proba,3) *100))
+                                                                              self.cout,
+                                                                              str(round(self.proba, 3) * 100))
         else:
             return 'ID: {}, Pere: {}, Mere: {}, Cout: {}, Proba: {} %'.format(self.ID, self.pere.ID, self.mere.ID,
-                                                                            self.cout, str(round(self.proba,3) *100))
-
-    def __add__(self, other):
-        self.population.generation += 1
-        rnd = random.random()
-        position_croisement = random.randint(0, len(self.sequence))
-        if rnd > 0.5:
-            seq1 = self.sequence[:position_croisement]
-            seq2 = other.sequence[position_croisement:]
-            return np.concatenate([seq1, seq2])
-        else:
-            return "Echec du croisement"
+                                                                              self.cout,
+                                                                              str(round(self.proba, 3) * 100))
 
     def set_Cout(self, cout):
         self.cout = cout
-        self.fitness = 1/self.cout
+        self.fitness = 1 / self.cout
 
     def set_Proba(self, proba):
         self.proba = proba
 
-    def set_Mutation(self,i):
-        if not self.mutation:
-            self.mutation = True
+    def set_Mutation(self, i):
+        if not self.__mutation:
+            self.__mutation = True
             self.ID = self.ID + '(m)'
         else:
-            self.mutationplace.append(i)
-
-    def faisabilite(self):
-        for i in range(self.population.nb_machine):
-            if len(np.where(self.sequence == i)) != self.population.nb_machine:
-                self.cout =  100000
-                return False
+            self.__mutationplace.append(i)

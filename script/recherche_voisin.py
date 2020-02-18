@@ -1,4 +1,6 @@
 import copy
+import time
+
 import numpy as np
 import networkx as nx
 import hashlib
@@ -6,6 +8,7 @@ import hashlib
 from heuristique.heuristique_gloutonne import heuristique_gloutone
 from heuristique.ordo_avec_liste import alloc_avec_liste
 from objects.instance import Instance
+from objects.logger import Logger
 from script.utils import vecteur_bier
 
 
@@ -60,40 +63,71 @@ def permutation_random(liste, nombre):
     return liste_permut
 
 
-def exploration_voisinage(solution, data, n=1, max_depth=6):
+def exploration_voisinage(solution, n=1, max_depth=6, crit_stagnation=50):
     graph = nx.MultiDiGraph()
+    temps1 = time.time()
     ecart = 10
+    Fichier = Logger(solution.instance, "exploration_voisinage",
+                     **{"n": n, "max_depth": max_depth, "crit_stagnation": crit_stagnation,
+                        "Séquence de départ": solution.sequence})
     to_be_explored = []
     solution.voisinage()
+    opti = solution.makeSpan
+
     to_be_explored.append(solution)
     graph.add_node(solution.nom, makespan=solution.makeSpan)
-    depth = 0
-    alert = 0
-    while to_be_explored and depth < max_depth:
-        if ecart < 0:
-            alert += 1
-            if alert == 30 and to_be_explored:
-                print("Stagnation du makespan")
+    depth, alert, compt = 0, 0, 0
+    explored = []
+    best = solution.sequence
+    while to_be_explored:
+        if depth < max_depth:
+            if alert == crit_stagnation:
+                Fichier.addLine("Stagnation du makespan")
                 break
+            else:
+                depth = to_be_explored[0].depth
+                to_be_explored, explored, make_min, seq = explore_deeper(depth, to_be_explored, explored, graph, n,
+                                                                         Fichier)
+            if make_min < opti:
+                alert = 0
+                opti = make_min
+                best = seq
+            else:
+                alert += 1
+            compt += 1
         else:
-            alert = 0
-            depth = to_be_explored[0].depth
-            to_be_explored, ecart = explore_deeper(to_be_explored, graph, n)
+            Fichier.addLine("Profondeur atteinte")
+            break
+
+    temps = time.time() - temps1
+    Fichier.makespanFile(opti, best)
+    Fichier.itFile(compt)
+    Fichier.tpsFile(temps)
 
     return graph
 
 
-def explore_deeper(to_be_explored, graph, n):
+def explore_deeper(depth, to_be_explored, explored, graph, n, Fichier):
+    make = []
     origine = to_be_explored[0]
     origine.voisinage()
     best_vois = origine.best_vois(n)
+
+    explored.append(origine.nom)
     to_be_explored.pop(0)
     for b in best_vois:
-        to_be_explored.append(b)
-        graph.add_node(b.nom, makespan=b.makeSpan)
-        graph.add_edge(b.root.nom, b.nom, chemin=str(b.root.nom) + '/' + str(b.nom))
-        ecart = (origine.makeSpan - b.makeSpan) / origine.makeSpan
-        print("Root: ", origine.nom, "Voisinage: ", b.nom, " ,makeSpan: ", b.makeSpan, '/', origine.makeSpan,
-              " ,écart: ", ecart)
-        print(b.sequence)
-    return to_be_explored, ecart
+        if b.nom not in explored:
+            to_be_explored.append(b)
+            graph.add_node(b.nom, makespan=b.makeSpan)
+            graph.add_edge(b.root.nom, b.nom, chemin=str(b.root.nom) + '/' + str(b.nom))
+            ecart = round((origine.makeSpan - b.makeSpan) / origine.makeSpan, 3)
+            make.append(b.makeSpan)
+            print("Profondeur:", depth, ", Root: ", origine.nom, ", Voisinage: ",
+                  b.nom, ", makeSpan: ", b.makeSpan, '/', origine.makeSpan,
+                  ", écart: ", ecart, "%", file=open(Fichier.location, 'a'))
+        else:
+            print("Deja exploré, Voisinage: ", b.nom, file=open(Fichier.location, 'a'))
+            ecart = 0
+            make.append(b.makeSpan)
+
+    return to_be_explored, explored, min(make), b

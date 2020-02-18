@@ -35,10 +35,9 @@ def main_genetique(pop, data, selec = 25, crois = 100, gene = 100):
     print("Optimum :", pop.elite)
     print("Temps de recheche:", time.time()-temps1)
 
-def genese(n, data, population, methode):
+def genese(n, data, population):
     # Génération de la population initiale
     # n , un entier, qui défini la taille de la population
-    # methode, la méthode de génération de la population
     inst = Instance(**data)
     heuristique_gloutone(inst, verbose=0, prio="SPT", rnd=0)
     liste = vecteur_bier(inst)

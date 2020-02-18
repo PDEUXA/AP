@@ -1,14 +1,15 @@
 from objects.job import Job
 from objects.resource import Resource
+from script.data import loader
 
 
 class Instance:
-    def __init__(self, **attributes):
-        for attr_name, attr_value in attributes.items():
-            setattr(self, attr_name, attr_value)
-        # self.nb_machine = nb_machine
-        # self.nb_jobs = nb_jobs
-        # self.problem = problem
+    def __init__(self, nom):
+        self.data, self.optimum = loader(name=nom)
+        self.nb_machine = self.data['nb_machine']
+        self.nb_jobs = self.data['nb_jobs']
+        self.problem = self.data['problem']
+        self.nom = nom
         self.resource_list = []
         self.jobs_list = []
         self.makeSpan = -1
