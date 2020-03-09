@@ -21,14 +21,14 @@ def decodage_bier(liste):
 def decodage_gene(sequence):
     temp = []
     for j,t in zip(sequence, decodage_bier(sequence)):
-        temp.append('o'+str(j)+str(t))
+        temp.append('o-' + str(j) + '-' + str(t))
     return temp
 
 
 def codage_gene(sequence):
     temp = []
     for e in sequence:
-        temp.append(int(e[1]))
+        temp.append(int(e.split("-")[1]))
     return np.array(temp)
 
 

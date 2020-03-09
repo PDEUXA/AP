@@ -1,3 +1,5 @@
+import hashlib
+
 from objects.job import Job
 from objects.resource import Resource
 from script.data import loader
@@ -52,3 +54,4 @@ class Instance:
         for i, e in enumerate(task_list):
             if e[1][4] == 0:
                 self.criticalPath.append(i)
+

@@ -19,7 +19,7 @@ class Individu:
         else:
             self.generation = self.population.generation
 
-        if self.generation == 0:
+        if type(self.pere) == str:
             self.ID = str(self.generation) + '-' + self.hash + '-A&E '
         else:
             self.ID = str(self.generation) + '-' + self.hash + '//' + self.pere.hash + '/' + self.mere.hash

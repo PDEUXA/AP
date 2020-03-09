@@ -20,15 +20,24 @@ class Logger:
         file.write("Heuristique: ")
         file.write(str(self.heuristique))
         file.write("\n")
-        file.write("================== Paramètre(s): ==================")
+        file.write("___________________________________________________________________")
+        file.write("\n")
+        file.write("========================== Paramètre(s): ==========================")
+        file.write("\n")
+        file.write("___________________________________________________________________")
         file.write("\n")
         for attr_name, attr_value in self.attributes.items():
             file.write(str(attr_name))
             file.write(": ")
             file.write(str(attr_value))
             file.write("\n")
-        file.write("====================== Logs =======================")
+        file.write("___________________________________________________________________")
         file.write("\n")
+        file.write("============================== Logs ===============================")
+        file.write("\n")
+        file.write("___________________________________________________________________")
+        file.write("\n")
+
         file.close()
         return file
 
@@ -60,11 +69,11 @@ class Logger:
             file.write(str(line))
         file.close
 
-    def tpsFile(self, temps):
+    def tpsFile(self, temps, nom="Temps :"):
         with open(self.location, 'r') as file:
             lines = file.readlines()
             lines.insert(2, "\n")
-            lines.insert(2, "Temps: " + str(temps))
+            lines.insert(2, nom + str(round(temps, 2)))
 
         file = open(self.location, 'w')
         for line in lines:

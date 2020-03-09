@@ -1,0 +1,5 @@
+Instance: ta01
+Heuristique: algo_génétique
+Makespan moyen (sur 8 instances): 1449.375
+Makespan mini: 1402
+Temps moyen: 4.2125
