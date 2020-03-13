@@ -64,6 +64,8 @@ def genese(n, population):
     # n , un entier, qui défini la taille de la population
     # population, un objet Population
     inst = Instance(population.nom)
+
+    # On ajoute le SPT et LPT à la population initiale et des permutations de SPT
     heuristique_gloutone(inst, verbose=0, prio="SPT", rnd=0)
     liste = vecteur_bier(inst)
     sequence = permutation_random(liste, n - 2)
@@ -72,6 +74,7 @@ def genese(n, population):
     liste = vecteur_bier(inst)
     sequence.append(liste)
 
+    # Instance des individus selon la séquence
     for i, seq in enumerate(sequence):
         indv = Individu(population, "Adam", "Eve", seq)
         population.add_Indv(indv)
@@ -95,9 +98,9 @@ def selection(population, n):
         temp_proba.append(indv.proba)
 
     tirage = np.random.choice(population.individu, size=n, replace=False, p=temp_proba)
-    # tirage = population.individu[-n:]
     population.reset_Indv()
 
+    # Ajout des individus choisi
     for indv in tirage:
         population.add_Indv(indv)
     # On ajoute 10% d'elite à la selection
@@ -106,10 +109,12 @@ def selection(population, n):
         indv.generation = population.generation
         population.add_Indv(indv)
 
-    inst = Instance(population.nom)
-    heuristique_gloutone(inst, verbose=0, prio="SPT", rnd=0)
-    liste = vecteur_bier(inst)
-    sequence = permutation_random(liste, int(n * 0.10))
+    population.calc_Proba_rg()
+
+    # inst = Instance(population.nom)
+    # heuristique_gloutone(inst, verbose=0, prio="SPT", rnd=0)
+    # liste = vecteur_bier(inst)
+    # sequence = permutation_random(liste, int(n * 0.10))
 
     # On ajoute 10% d'aléatoire à la selection
     # for seq in sequence:
@@ -117,7 +122,6 @@ def selection(population, n):
     #     indv.set_Cout(alloc_avec_liste(Instance(population.nom), indv.sequence))
     #     population.add_Indv(indv)
 
-    population.calc_Proba_rg()
 
 
 def croisement(population, alpha=0.85, n=1):

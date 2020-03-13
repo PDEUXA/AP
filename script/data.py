@@ -55,6 +55,3 @@ def separate(matrix):
                 # Durée
                 duration[i].append(e)
     return machine, duration
-
-def txt_output():
-    pass

@@ -14,7 +14,8 @@ def main(chemin):
                 if "MakeSpan" in line:
                     makespan.append(int(line.split()[1]))
                 if "Optimum trouvé au bout de :" in line:
-                    temps.append(float(line.split(":")[-1].split("\n")[0]))
+                    if float(line.split(":")[-1].split("\n")[0]) != 0:
+                        temps.append(float(line.split(":")[-1].split("\n")[0]))
                 if "Instance" in line:
                     instance = line.split()[-1]
                 if "Heuristique" in line:

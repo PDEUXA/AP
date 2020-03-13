@@ -2,100 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Results/ft20_03cccdee.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/ft20_b1aab006.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/ft20_c6875fdb.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/ft20_e1f61d97.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06-c05a-Summary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_0ff65d3c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_1966cf4e.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_2acc9c70.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_2e5ba001.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_355a7f92.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_4827459c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_4c68f81c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_4ce8714c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_51b772e1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_5994ad5e.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_5a0024c4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_72e37472.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_824d3339.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_9441e38c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_a5ff3423.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_c13291cd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_d0de1334.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_d25838e5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_dbfe3af7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_f184ff12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10-977a-Summary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_0490456d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_134f9e0b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_232dc3f5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_3346a4df.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_36887cb4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_3cf462b9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_4832b64b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_4a54fb12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_5538cae2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_5d46afaa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_5fe3b190.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_7b352f53.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_84b150f0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_88f29bdb.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_92f4a59a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_999cfed1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_9e5c92d8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_d669dc2d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_fe523415.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01-29f1-Summary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_04f74eca.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_0ca61190.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_1f8ef0e3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_27c46713.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_288956c8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_46f5a2a0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_482b4c25.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_48e6fdb1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_563d498e.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_62fe4caa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_6d0050cb.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_7089e3c1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_72ad0f45.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_77d607bd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_832761aa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_88d9c564.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_8d21f9cb.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_90ce6021.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_a6b87afb.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_abc5e1af.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_b7dec5d4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_c88f3a8c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_d38d1257.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_d78888e8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_e3a2e15b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_e791c40e.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_e8347c0c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_efd984da.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/la01/la01_f117aa0c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ta01-1d7a-Summary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_6a7e82f8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_db1a6225.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_f4fafcda.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_fdd45d48.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/summary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/ft20_2f162d65.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/ft20_5de9a81c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/ft20_bc53a149.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/ft20_e6db0c8d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_6fcf631a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_8af03879.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_cf05eea8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_de0ca35a.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/ft06_dca5b747.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/ft10_0b6f91fa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/voisinage/ft10_0b6f91fa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/la01_575ea519.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/voisinage/la01_575ea519.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ta01-1d7a-Summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique ft/ta01-1d7a-Summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Results/summary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heuristique/genetique.py" beforeDir="false" afterPath="$PROJECT_DIR$/heuristique/genetique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lines.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/individus.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/individus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/instance.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/instance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/population.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/population.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/thread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,15 +84,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/instances" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Results/génétique ft/ta01" />
       <recent name="$PROJECT_DIR$/Results/génétique ft/la01" />
       <recent name="$PROJECT_DIR$/Results/génétique ft" />
       <recent name="$PROJECT_DIR$/Results/ta01" />
       <recent name="$PROJECT_DIR$/Results/voisinage" />
-      <recent name="$PROJECT_DIR$/Results/génétique ft/ft10" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/instances" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -252,6 +172,10 @@
       <workItem from="1582223404814" duration="1651000" />
       <workItem from="1582273833205" duration="3189000" />
       <workItem from="1582277457980" duration="7325000" />
+      <workItem from="1583769437393" duration="272000" />
+      <workItem from="1583826383121" duration="4000" />
+      <workItem from="1584000328000" duration="6602000" />
+      <workItem from="1584086374437" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>
@@ -330,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582048208968</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="correction de bug">
+      <created>1583769561434</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583769561434</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +292,8 @@
     <MESSAGE value="Algo genetique v1.1&#10;modification recherche_voisin en OO" />
     <MESSAGE value="Algo genetique v1.2&#10;modification sort_task (pour les instances de type ta)&#10;modification laoder (pour les instances de type ta)&#10;modification critere d'arret du voisinage" />
     <MESSAGE value="modification individus (cosmetique)&#10;modification instance (init)&#10;creation logger" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification individus (cosmetique)&#10;modification instance (init)&#10;creation logger" />
+    <MESSAGE value="correction de bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction de bug" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -373,35 +305,44 @@
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="416" y="240" width="520" height="287" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.28.1360.712@0.28.1360.712" timestamp="1581592097821" />
-    <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2" timestamp="1582048208870">
-      <screen x="0" y="28" width="1360" height="712" />
+    <state x="442" y="28" width="869" height="711" key="CommitChangelistDialog2" timestamp="1584086408150">
+      <screen x="0" y="28" width="1920" height="1024" />
     </state>
     <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580487213262" />
-    <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1582048208870" />
+    <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1583769561236" />
+    <state x="442" y="28" key="CommitChangelistDialog2/0.28.1920.1024@0.28.1920.1024" timestamp="1584086408150" />
+    <state x="199" y="84" width="1090" height="598" key="DiffContextDialog" timestamp="1583769530997">
+      <screen x="0" y="28" width="1360" height="712" />
+    </state>
+    <state x="199" y="84" width="1090" height="598" key="DiffContextDialog/0.28.1360.712@0.28.1360.712" timestamp="1583769530997" />
     <state x="463" y="142" width="426" height="483" key="FileChooserDialogImpl" timestamp="1581064879031">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="463" y="142" width="426" height="483" key="FileChooserDialogImpl/0.28.1360.712@0.28.1360.712" timestamp="1581064879031" />
-    <state width="241" height="503" key="GridCell.Tab.0.bottom" timestamp="1582278251681">
-      <screen x="0" y="28" width="1360" height="712" />
+    <state width="344" height="577" key="GridCell.Tab.0.bottom" timestamp="1584007259019">
+      <screen x="0" y="28" width="1920" height="1024" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580489659464" />
     <state width="241" height="503" key="GridCell.Tab.0.bottom/0.28.1360.712@0.28.1360.712" timestamp="1582278251681" />
-    <state width="241" height="503" key="GridCell.Tab.0.center" timestamp="1582278251681">
-      <screen x="0" y="28" width="1360" height="712" />
+    <state width="344" height="577" key="GridCell.Tab.0.bottom/0.28.1920.1024@0.28.1920.1024" timestamp="1584007259019" />
+    <state width="344" height="577" key="GridCell.Tab.0.center" timestamp="1584007259018">
+      <screen x="0" y="28" width="1920" height="1024" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580489659463" />
     <state width="241" height="503" key="GridCell.Tab.0.center/0.28.1360.712@0.28.1360.712" timestamp="1582278251681" />
-    <state width="241" height="503" key="GridCell.Tab.0.left" timestamp="1582278251681">
-      <screen x="0" y="28" width="1360" height="712" />
+    <state width="344" height="577" key="GridCell.Tab.0.center/0.28.1920.1024@0.28.1920.1024" timestamp="1584007259018" />
+    <state width="344" height="577" key="GridCell.Tab.0.left" timestamp="1584007259018">
+      <screen x="0" y="28" width="1920" height="1024" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580489659462" />
     <state width="241" height="503" key="GridCell.Tab.0.left/0.28.1360.712@0.28.1360.712" timestamp="1582278251681" />
-    <state width="241" height="503" key="GridCell.Tab.0.right" timestamp="1582278251681">
-      <screen x="0" y="28" width="1360" height="712" />
+    <state width="344" height="577" key="GridCell.Tab.0.left/0.28.1920.1024@0.28.1920.1024" timestamp="1584007259018" />
+    <state width="344" height="577" key="GridCell.Tab.0.right" timestamp="1584007259018">
+      <screen x="0" y="28" width="1920" height="1024" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580489659464" />
     <state width="241" height="503" key="GridCell.Tab.0.right/0.28.1360.712@0.28.1360.712" timestamp="1582278251681" />
+    <state width="344" height="577" key="GridCell.Tab.0.right/0.28.1920.1024@0.28.1920.1024" timestamp="1584007259018" />
     <state x="144" y="79" key="MergeDialog" timestamp="1580480626463">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -424,11 +365,11 @@
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
     <state width="498" height="398" key="SwitcherDM/0.28.1360.712@0.28.1360.712" timestamp="1582025095235" />
-    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1582048211821">
+    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1583769563236">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580487222237" />
-    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1360.712@0.28.1360.712" timestamp="1582048211821" />
+    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1360.712@0.28.1360.712" timestamp="1583769563236" />
     <state width="681" height="356" key="XDebugger.FullValuePopup" timestamp="1581946677089">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
@@ -437,10 +378,11 @@
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="99" y="128" width="1162" height="513" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.28.1360.712@0.28.1360.712" timestamp="1582276837828" />
-    <state x="336" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1583769505197">
-      <screen x="0" y="28" width="1360" height="712" />
+    <state x="474" y="293" key="com.intellij.ide.util.TipDialog" timestamp="1584086375133">
+      <screen x="0" y="28" width="1920" height="1024" />
     </state>
-    <state x="336" y="212" key="com.intellij.ide.util.TipDialog/0.28.1360.712@0.28.1360.712" timestamp="1583769505197" />
+    <state x="336" y="212" key="com.intellij.ide.util.TipDialog/0.28.1360.712@0.28.1360.712" timestamp="1583826383542" />
+    <state x="474" y="293" key="com.intellij.ide.util.TipDialog/0.28.1920.1024@0.28.1920.1024" timestamp="1584086375133" />
     <state x="344" y="28" width="664" height="711" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581940493801">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
