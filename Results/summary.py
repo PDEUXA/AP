@@ -2,6 +2,9 @@ import argparse
 import hashlib
 import os
 import sys
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib as mpl
 
 
 def main(agrs):
@@ -36,6 +39,13 @@ def main(agrs):
                     instance = line.split()[-1]
                 if "Heuristique" in line:
                     heuristique = line.split()[-1]
+                if "Max Fit:" in line:
+                    maxfit = line
+                if "Mean Fit:" in line:
+                    meanfit = line
+                    meanfit = np.array(meanfit.strip("Mean Fit: [").strip("]\n'").split(",")).astype(float)
+                    maxfit = np.array(maxfit.strip("Max Fit: [").strip("]\n'").split(",")).astype(float)
+                    plot_genetique_fitness(meanfit, maxfit, args.chemin + '-' + str(file))
         compt += 1
 
     file = open(args.chemin + instance + '-' + str(hash) + '-Summary.txt', 'w')
@@ -59,6 +69,27 @@ def main(agrs):
     file.close
 
     return temps
+
+
+def plot_genetique_fitness(meanfit, maxfit, logger=None):
+    """
+    :param logger: Logger
+    :param meanfit: list
+    :param maxfit: list
+    :return: None
+    """
+
+    plt.plot(1 / np.array(meanfit), '-or', label="Makespan moyen")
+    plt.plot(1 / np.array(maxfit), '-ob', label="Makespan mini")
+    plt.legend()
+    plt.xlabel('=======> Générations')
+    plt.ylabel('=======> Makespan')
+    plt.grid()
+    title = logger
+
+    plt.title(title)
+    plt.savefig(logger + ".png")
+    plt.clf()
 
 
 if __name__ == '__main__':

@@ -1,0 +1,5 @@
+Instance: la01
+Heuristique: algo_génétique
+Makespan moyen (sur 24 instances): 678.875
+Makespan mini: 666
+Temps moyen: 86.79333333333334

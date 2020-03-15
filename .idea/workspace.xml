@@ -2,138 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/pa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06-f4fc-Summary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_04c707cb.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_1c7a693e.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_426227dd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_479c0fc4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_4b13d932.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_4eb86461.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_55dbbddc.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_5f708d77.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_6577abca.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_71411fdf.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_794e99e2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_8cec70a0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_8df3df1c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_996af553.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_c0c20be9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique/ft06/ft06_d4561d7a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/la01_03ec6d90.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/la01_46ec4724.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/la01_93c60594.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/la01_bb70d44a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordo_avec_liste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_033dafb5.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_2a7612a1.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_2b2a8dda.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_40a51e2b.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_42c9f3b9.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_473f6879.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_520adf4b.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_641e6d08.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_6cf56bca.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_763c8efd.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_799bc3d7.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_8f9c4ee1.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_957c75fe.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_962b009e.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_b7d19916.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_be7e4b76.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_c0da5add.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_e139303c.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_eb912691.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/-ft10_ffccf82d.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/ft10-4708-Summary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/ft10_2b2a8dda.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/ft10_473f6879.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/ft10_520adf4b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/ft10_641e6d08.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/ft10_6cf56bca.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/ft10_763c8efd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/ft10_799bc3d7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/ft10_8f9c4ee1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/ft10_957c75fe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/ft10_b7d19916.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/ft10_c0da5add.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/ft10/ft10_eb912691.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_07ed74a1.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_31da4f04.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_3caed44e.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_4a326bcc.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_58356792.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_5cae5769.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_5ceffdc7.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_69c5d6c4.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_6f97c66e.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_745454ff.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_7f02d33b.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_85b0537d.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_933ac5b1.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_996c582f.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_9a599599.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_9accc9b2.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_9c6cc3f5.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_9f4279f9.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_a5f2604c.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_b550b4c4.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_dd8a3086.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_dfce38ce.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_ee828473.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/-la01_f715687c.txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01-918c-Summary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_07ed74a1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_31da4f04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_3caed44e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_5cae5769.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_5ceffdc7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_69c5d6c4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_6f97c66e.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_85b0537d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_9a599599.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_9accc9b2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_9c6cc3f5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_9f4279f9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_a5f2604c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_b550b4c4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_dd8a3086.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_dfce38ce.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/génétique/la01/la01_ee828473.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Notebook-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06-c05a-Summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06-c05a-Summary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_0ff65d3c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_0ff65d3c.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_1966cf4e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_1966cf4e.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_2acc9c70.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_2acc9c70.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_2e5ba001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_2e5ba001.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_355a7f92.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_355a7f92.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_4827459c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_4827459c.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_4c68f81c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_4c68f81c.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_4ce8714c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_4ce8714c.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_51b772e1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_51b772e1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_5994ad5e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_5994ad5e.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_5a0024c4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_5a0024c4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_72e37472.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_72e37472.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_824d3339.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_824d3339.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_9441e38c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_9441e38c.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_a5ff3423.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_a5ff3423.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_c13291cd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_c13291cd.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_d0de1334.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_d0de1334.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_d25838e5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_d25838e5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_dbfe3af7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_dbfe3af7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft06/ft06_f184ff12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft06/ft06_f184ff12.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10-977a-Summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10-977a-Summary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_0490456d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_0490456d.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_134f9e0b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_134f9e0b.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_232dc3f5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_232dc3f5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_3346a4df.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_3346a4df.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_36887cb4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_36887cb4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_3cf462b9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_3cf462b9.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_4832b64b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_4832b64b.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_4a54fb12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_4a54fb12.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_5538cae2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_5538cae2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_5d46afaa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_5d46afaa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_5fe3b190.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_5fe3b190.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_7b352f53.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_7b352f53.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_84b150f0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_84b150f0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_88f29bdb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_88f29bdb.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_92f4a59a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_92f4a59a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_999cfed1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_999cfed1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_9e5c92d8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_9e5c92d8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_d669dc2d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_d669dc2d.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ft10/ft10_fe523415.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ft10/ft10_fe523415.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01-29f1-Summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01-29f1-Summary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_04f74eca.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_04f74eca.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_0ca61190.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_0ca61190.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_1f8ef0e3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_1f8ef0e3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_27c46713.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_27c46713.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_288956c8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_288956c8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_46f5a2a0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_46f5a2a0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_482b4c25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_482b4c25.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_48e6fdb1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_48e6fdb1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_563d498e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_563d498e.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_62fe4caa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_62fe4caa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_6d0050cb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_6d0050cb.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_7089e3c1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_7089e3c1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_72ad0f45.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_72ad0f45.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_77d607bd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_77d607bd.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_832761aa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_832761aa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_88d9c564.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_88d9c564.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_8d21f9cb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_8d21f9cb.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_90ce6021.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_90ce6021.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_a6b87afb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_a6b87afb.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_abc5e1af.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_abc5e1af.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_b7dec5d4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_b7dec5d4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_c88f3a8c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_c88f3a8c.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_d38d1257.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_d38d1257.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_d78888e8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_d78888e8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_e3a2e15b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_e3a2e15b.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_e791c40e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_e791c40e.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_e8347c0c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_e8347c0c.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_efd984da.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_efd984da.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/la01/la01_f117aa0c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/la01/la01_f117aa0c.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ta01-1d7a-Summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ta01-1d7a-Summary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_6a7e82f8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ta01/ta01_6a7e82f8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_6fcf631a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ta01/ta01_6fcf631a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_8af03879.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ta01/ta01_8af03879.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_cf05eea8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ta01/ta01_cf05eea8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_db1a6225.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ta01/ta01_db1a6225.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_de0ca35a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ta01/ta01_de0ca35a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_f4fafcda.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ta01/ta01_f4fafcda.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_fdd45d48.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique (old)/ta01/ta01_fdd45d48.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/la01_4e6ff342.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/la01_d689300e.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/génétique/ft06/ft06-f4fc-Summary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/la01_03ec6d90.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/la01_46ec4724.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/la01_93c60594.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/la01_bb70d44a.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Results/summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Results/summary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heuristique/genetique.py" beforeDir="false" afterPath="$PROJECT_DIR$/genetique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heuristique/heuristique_gloutonne.py" beforeDir="false" afterPath="$PROJECT_DIR$/heuristique_gloutonne.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heuristique/ordo_avec_liste.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/.ipynb_checkpoints/job-checkpoint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/.ipynb_checkpoints/resource-checkpoint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/.ipynb_checkpoints/task-checkpoint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/classes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/affichage.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/affichage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/recherche_voisin.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/recherche_voisin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.csh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.fish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python3.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib64" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,11 +156,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Results/génétique/ft06" />
-      <recent name="$PROJECT_DIR$/Results/génétique (old)/ft06" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Results/génétique ft/ta01" />
-      <recent name="$PROJECT_DIR$/Results/génétique ft/la01" />
+      <recent name="$PROJECT_DIR$/Results/génétique/ft10" />
+      <recent name="$PROJECT_DIR$/Results/génétique/la01" />
+      <recent name="$PROJECT_DIR$/Results/génétique" />
+      <recent name="$PROJECT_DIR$/Results" />
+      <recent name="$PROJECT_DIR$/script" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/instances" />
@@ -299,7 +251,7 @@
       <workItem from="1584086400384" duration="182000" />
       <workItem from="1584090103919" duration="1077000" />
       <workItem from="1584181448900" duration="178000" />
-      <workItem from="1584277357391" duration="13094000" />
+      <workItem from="1584277357391" duration="17771000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>
@@ -399,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584283444818</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="New tests">
+      <created>1584292251832</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584292251832</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +392,8 @@
     <MESSAGE value="correction de bug" />
     <MESSAGE value="with logs file" />
     <MESSAGE value="Improvement of GA&#10;-adding duel/tournamenet&#10;-genesis parametrable&#10;-selection parametrable&#10;&#10;adding fitness over time in the log file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improvement of GA&#10;-adding duel/tournamenet&#10;-genesis parametrable&#10;-selection parametrable&#10;&#10;adding fitness over time in the log file" />
+    <MESSAGE value="New tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="New tests" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -445,13 +405,13 @@
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="416" y="240" width="520" height="287" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.28.1360.712@0.28.1360.712" timestamp="1581592097821" />
-    <state x="2362" y="28" width="862" height="806" key="CommitChangelistDialog2" timestamp="1584283444711">
+    <state x="2362" y="28" width="924" height="896" key="CommitChangelistDialog2" timestamp="1584292251619">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580487213262" />
     <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1583769561236" />
     <state x="442" y="28" width="862" height="806" key="CommitChangelistDialog2/0.28.1920.1024@0.28.1920.1024" timestamp="1584086436414" />
-    <state x="2362" y="28" key="CommitChangelistDialog2/1920.0.1920.1080/0.28.1920.1024@1920.0.1920.1080" timestamp="1584283444711" />
+    <state x="2362" y="28" width="924" height="896" key="CommitChangelistDialog2/1920.0.1920.1080/0.28.1920.1024@1920.0.1920.1080" timestamp="1584292251619" />
     <state x="199" y="84" width="1090" height="598" key="DiffContextDialog" timestamp="1583769530997">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
@@ -513,13 +473,13 @@
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
     <state width="498" height="398" key="SwitcherDM/0.28.1360.712@0.28.1360.712" timestamp="1582025095235" />
-    <state x="2346" y="228" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1584283449961">
+    <state x="2346" y="228" width="802" height="550" key="Vcs.Push.Dialog.v2" timestamp="1584292256250">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580487222237" />
     <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1360.712@0.28.1360.712" timestamp="1583769563236" />
     <state x="426" y="244" key="Vcs.Push.Dialog.v2/0.28.1920.1024@0.28.1920.1024" timestamp="1584086438236" />
-    <state x="2346" y="228" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.28.1920.1024@1920.0.1920.1080" timestamp="1584283449961" />
+    <state x="2346" y="228" width="802" height="550" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.28.1920.1024@1920.0.1920.1080" timestamp="1584292256250" />
     <state width="681" height="356" key="XDebugger.FullValuePopup" timestamp="1581946677089">
       <screen x="0" y="28" width="1360" height="712" />
     </state>

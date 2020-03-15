@@ -1,5 +1,0 @@
-Instance: ft06
-Heuristique: algo_génétique
-Makespan moyen (sur 21 instances): 56.75
-Makespan mini: 55
-Temps moyen: 13.768

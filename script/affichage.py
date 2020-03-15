@@ -14,14 +14,21 @@ j: Job
 r: Resource
 
 
-def plot_genetique_fitness(meanfit, maxfit, logger):
+def plot_genetique_fitness(meanfit, maxfit, logger=None):
     """
     :param logger: Logger
     :param meanfit: list
     :param maxfit: list
     :return: None
     """
-    mpl.use('WebAgg')
+    title = ""
+    if type(logger) == str:
+        mpl.use('WebAgg')
+        for i, (attr_name, attr_value) in enumerate(logger.attributes.items()):
+            if (i + 1) % 3 == 0:
+                title = title + str(attr_name) + ": " + str(attr_value) + "\n"
+            else:
+                title = title + str(attr_name) + ": " + str(attr_value) + ", "
 
     plt.plot(1 / np.array(meanfit), '-or', label="Makespan moyen")
     plt.plot(1 / np.array(maxfit), '-ob', label="Makespan mini")
@@ -29,15 +36,11 @@ def plot_genetique_fitness(meanfit, maxfit, logger):
     plt.xlabel('=======> Générations')
     plt.ylabel('=======> Makespan')
     plt.grid()
-    title = ""
-    for i, (attr_name, attr_value) in enumerate(logger.attributes.items()):
-        if (i + 1) % 3 == 0:
-            title = title + str(attr_name) + ": " + str(attr_value) + "\n"
-        else:
-            title = title + str(attr_name) + ": " + str(attr_value) + ", "
+    title = logger
 
     plt.title(title)
     plt.show()
+    plt.savefig(logger + ".png")
 
 
 def plot_gantt(instance, by="JOB", grouping=True, color='Resource'):
