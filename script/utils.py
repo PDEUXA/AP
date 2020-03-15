@@ -9,32 +9,50 @@ j: Job
 t: Task
 
 def decodage_bier(liste):
-    # decodage vecteur de Bierwith
+    """
+    Decodage vecteur de Bierwith
+    :param liste: list, vecteur de Bierwith (vecteur répétition)
+    :return: ndarray
+    """
     vect_decode = []
     temp = []
     for i, elem in enumerate(liste):
         temp.append(elem)
-        vect_decode.append(temp.count(elem)-1)
+        vect_decode.append(temp.count(elem) - 1)
     return np.array(vect_decode)
 
 
 def decodage_gene(sequence):
+    """
+    Décodage d'une séquence en gène (pour algorithme génétique)
+    :param sequence: list
+    :return: list
+    """
     temp = []
-    for j,t in zip(sequence, decodage_bier(sequence)):
+    for j, t in zip(sequence, decodage_bier(sequence)):
         temp.append('o-' + str(j) + '-' + str(t))
     return temp
 
 
 def codage_gene(sequence):
+    """
+    Codage d'une séquence en gène (pour algorithme génétique)
+    :param sequence: list
+    :return: list
+    """
     temp = []
     for e in sequence:
         temp.append(int(e.split("-")[1]))
     return np.array(temp)
 
 
-def vecteur_bier(instance, par = "Start"):
-    # Input :
-    # --- Objet de type Instance
+def vecteur_bier(instance, par="Start"):
+    """
+    A partir d'une instance, codage du vecteur de Bier, selon Start ou Finish date
+    :param instance: Instance
+    :param par: "Finish" or "Start
+    :return:
+    """
 
     data = sort_task(instance, par=par)
     liste = np.array([int(x[0].split(".")[0]) for x in np.array(data)])
@@ -46,9 +64,14 @@ def vecteur_bier(instance, par = "Start"):
 
 
 def sort_task(instance, par="Finish", dataframe=False):
-    # Tries les taches selon la consigne (par date de début ou de fin)
-    # Input: Objet de type Instance : instance
-    # Output: Tableau (JobID, taskID, start, fin, prédécesseur) : task_list
+    """
+    Tries les tâches selon la consigne (par date de début ou de fin)
+
+    :param instance: Instance
+    :param par: Finish ou Start
+    :param dataframe: renvoi un dataframe pandas ou non.
+    :return: None ou DataFrame ( (JobID, taskID, start, fin, prédécesseur) : task_list )
+    """
 
     task_lists = {}
     # Parcours des jobs de l'instance
@@ -56,7 +79,8 @@ def sort_task(instance, par="Finish", dataframe=False):
         # Parcours de tâches du job j:
         for t in j.task_list:
             # Ajout de la tâche à la liste
-            task_lists[str(t.jobID) + '.' + str(t.taskID)] = [t.jobID, t.taskID, t.startDate, t.finishDate, t.totalFloat]
+            task_lists[str(t.jobID) + '.' + str(t.taskID)] = [t.jobID, t.taskID, t.startDate,
+                                                              t.finishDate, t.totalFloat]
     if par == 'Start':
         task_lists = sorted(task_lists.items(), key=lambda x: x[1][2])
     elif par == "Finish":
@@ -73,7 +97,3 @@ def sort_task(instance, par="Finish", dataframe=False):
         task_lists = [task_lists[i][1] for i in range(len(task_lists))]
         task_lists = pd.DataFrame(task_lists, columns=["JobID", "TaskID", "Start", "Fin", "Marge Totale"])
     return task_lists
-
-
-
-

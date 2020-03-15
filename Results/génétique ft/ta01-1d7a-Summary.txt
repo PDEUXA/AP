@@ -1,5 +1,0 @@
-Instance: ta01
-Heuristique: algo_génétique
-Makespan moyen (sur 17 instances): 1449.4117647058824
-Makespan mini: 1402
-Temps moyen: 7.704444444444444

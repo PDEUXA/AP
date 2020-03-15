@@ -1,5 +1,0 @@
-Instance: ft10
-Heuristique: algo_génétique
-Makespan moyen (sur 19 instances): 1055.3157894736842
-Makespan mini: 1014
-Temps moyen: 15.070555555555554

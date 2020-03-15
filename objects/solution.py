@@ -1,7 +1,7 @@
 import hashlib
 import operator
 
-from heuristique.ordo_avec_liste import alloc_avec_liste
+from ordo_avec_liste import alloc_avec_liste
 from objects.instance import Instance
 from script.recherche_voisin import inversion_all, decalage_all, permutation_by_2_all
 

@@ -1,0 +1,136 @@
+Instance: la01
+Heuristique: algo_génétique
+___________________________________________________________________
+========================== Paramètre(s): ==========================
+___________________________________________________________________
+% de voisins de SPT et LPT: 0.2
+Nombre selection: 100
+Type de selection (random): True
+Nombre croisement: 100
+% de croisement: 0.85
+Type de croisement (duel): True
+Nombre génération: 400
+Facteur de mutation: 0.3
+Seed: 13fef5a7
+___________________________________________________________________
+============================== Logs ===============================
+___________________________________________________________________
+Géneration:  0
+==========================Nouvel elite !==========================
+ID: 0-a494-A&E , Pere: Adam, Mere: Eve, Cout: 769, Proba: 1.0 %
+Géneration:  1
+Géneration:  2
+==========================Nouvel elite !==========================
+ID: 3-a494//2dc7/a494, Pere: 2-2dc7//1a4a/b121, Mere: 0-a494-A&E , Cout: 755, Proba: 1.0 %
+Géneration:  3
+Géneration:  4
+==========================Nouvel elite !==========================
+ID: 4-f64b//6207/a494, Pere: 2-6207//d22f/b0f2, Mere: 3-a494//2dc7/a494, Cout: 725, Proba: 1.0 %
+Géneration:  5
+Géneration:  6
+Géneration:  7
+Géneration:  8
+Géneration:  9
+Géneration:  10
+Géneration:  11
+==========================Nouvel elite !==========================
+ID: 12-bd62//4dc5/4dc5(m), Pere: 10-4dc5//5151/f64b(m), Mere: 11-4dc5//f64b/f64b(m), Cout: 692, Proba: 1.0 %
+Géneration:  12
+Géneration:  13
+Géneration:  14
+Géneration:  15
+==========================Nouvel elite !==========================
+ID: 16-e5eb//383d/bd62(m), Pere: 15-383d//4dc5/bd62(m), Mere: 12-bd62//4dc5/4dc5(m), Cout: 673, Proba: 1.0 %
+Géneration:  16
+Géneration:  17
+Géneration:  18
+Géneration:  19
+Géneration:  20
+Géneration:  21
+Géneration:  22
+Géneration:  23
+Géneration:  24
+Géneration:  25
+Géneration:  26
+Géneration:  27
+Géneration:  28
+Géneration:  29
+Géneration:  30
+Géneration:  31
+Géneration:  32
+Géneration:  33
+Géneration:  34
+Géneration:  35
+Géneration:  36
+Géneration:  37
+Géneration:  38
+Géneration:  39
+Géneration:  40
+Géneration:  41
+Géneration:  42
+Géneration:  43
+Géneration:  44
+Géneration:  45
+Géneration:  46
+Géneration:  47
+Géneration:  48
+Géneration:  49
+Géneration:  50
+Géneration:  51
+Géneration:  52
+Géneration:  53
+Géneration:  54
+Géneration:  55
+Géneration:  56
+Géneration:  57
+Géneration:  58
+Géneration:  59
+Géneration:  60
+Géneration:  61
+Géneration:  62
+Géneration:  63
+Géneration:  64
+Géneration:  65
+Géneration:  66
+Géneration:  67
+Géneration:  68
+Géneration:  69
+Géneration:  70
+Géneration:  71
+Géneration:  72
+Géneration:  73
+Géneration:  74
+Géneration:  75
+Géneration:  76
+Géneration:  77
+Géneration:  78
+Géneration:  79
+Géneration:  80
+Géneration:  81
+Géneration:  82
+Géneration:  83
+Géneration:  84
+Géneration:  85
+Géneration:  86
+Géneration:  87
+Géneration:  88
+Géneration:  89
+Géneration:  90
+Géneration:  91
+Géneration:  92
+Géneration:  93
+Géneration:  94
+Géneration:  95
+Géneration:  96
+Géneration:  97
+Géneration:  98
+Géneration:  99
+Géneration:  100
+Géneration:  101
+Géneration:  102
+Géneration:  103
+Géneration:  104
+Géneration:  105
+Géneration:  106
+Géneration:  107
+Géneration:  108

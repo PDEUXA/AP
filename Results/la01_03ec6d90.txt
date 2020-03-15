@@ -1,0 +1,141 @@
+Instance: la01
+Heuristique: algo_génétique
+___________________________________________________________________
+========================== Paramètre(s): ==========================
+___________________________________________________________________
+% de voisins de SPT et LPT: 0.2
+Nombre selection: 100
+Type de selection (random): True
+Nombre croisement: 100
+% de croisement: 0.85
+Type de croisement (duel): True
+Nombre génération: 400
+Facteur de mutation: 0.3
+Seed: 6aed6809
+___________________________________________________________________
+============================== Logs ===============================
+___________________________________________________________________
+Géneration:  0
+==========================Nouvel elite !==========================
+ID: 0-a494-A&E , Pere: Adam, Mere: Eve, Cout: 769, Proba: 0.8999999999999999 %
+Géneration:  1
+Géneration:  2
+Géneration:  3
+==========================Nouvel elite !==========================
+ID: 2-2007//d92c/a494, Pere: 0-d92c-A&E , Mere: 1-a494//a494/a494, Cout: 755, Proba: 1.0 %
+Géneration:  4
+==========================Nouvel elite !==========================
+ID: 4-37a3//a494/77e8, Pere: 1-a494//a494/a494, Mere: 3-77e8//6649/cf26(m), Cout: 747, Proba: 1.0 %
+Géneration:  5
+==========================Nouvel elite !==========================
+ID: 6-1652//37a3/2007(m), Pere: 4-37a3//a494/77e8, Mere: 2-2007//d92c/a494, Cout: 732, Proba: 1.0 %
+Géneration:  6
+Géneration:  7
+==========================Nouvel elite !==========================
+ID: 8-2d7f//0f71/c907, Pere: 6-0f71//a494/a494, Mere: 7-c907//a494/37a3, Cout: 716, Proba: 1.0 %
+Géneration:  8
+Géneration:  9
+==========================Nouvel elite !==========================
+ID: 9-c907//2d7f/c907(m), Pere: 8-2d7f//0f71/c907, Mere: 7-c907//a494/37a3, Cout: 707, Proba: 1.0 %
+Géneration:  10
+Géneration:  11
+Géneration:  12
+==========================Nouvel elite !==========================
+ID: 13-ae29//c907/2d7f(m), Pere: 9-c907//2d7f/c907(m), Mere: 11-2d7f//c0f8/2d7f, Cout: 697, Proba: 1.0 %
+Géneration:  13
+Géneration:  14
+Géneration:  15
+Géneration:  16
+Géneration:  17
+Géneration:  18
+Géneration:  19
+Géneration:  20
+Géneration:  21
+Géneration:  22
+Géneration:  23
+Géneration:  24
+Géneration:  25
+Géneration:  26
+Géneration:  27
+Géneration:  28
+Géneration:  29
+Géneration:  30
+Géneration:  31
+Géneration:  32
+Géneration:  33
+Géneration:  34
+Géneration:  35
+Géneration:  36
+Géneration:  37
+Géneration:  38
+Géneration:  39
+Géneration:  40
+Géneration:  41
+Géneration:  42
+Géneration:  43
+Géneration:  44
+Géneration:  45
+Géneration:  46
+Géneration:  47
+Géneration:  48
+Géneration:  49
+Géneration:  50
+Géneration:  51
+Géneration:  52
+Géneration:  53
+Géneration:  54
+Géneration:  55
+Géneration:  56
+Géneration:  57
+Géneration:  58
+Géneration:  59
+Géneration:  60
+Géneration:  61
+Géneration:  62
+Géneration:  63
+Géneration:  64
+Géneration:  65
+Géneration:  66
+Géneration:  67
+Géneration:  68
+Géneration:  69
+Géneration:  70
+Géneration:  71
+Géneration:  72
+Géneration:  73
+Géneration:  74
+Géneration:  75
+Géneration:  76
+Géneration:  77
+Géneration:  78
+Géneration:  79
+Géneration:  80
+Géneration:  81
+Géneration:  82
+Géneration:  83
+Géneration:  84
+Géneration:  85
+Géneration:  86
+Géneration:  87
+Géneration:  88
+Géneration:  89
+Géneration:  90
+Géneration:  91
+Géneration:  92
+Géneration:  93
+Géneration:  94
+Géneration:  95
+Géneration:  96
+Géneration:  97
+Géneration:  98
+Géneration:  99
+Géneration:  100
+Géneration:  101
+Géneration:  102
+Géneration:  103
+Géneration:  104
+Géneration:  105
+Géneration:  106
+Géneration:  107
+Géneration:  108
+Géneration:  109

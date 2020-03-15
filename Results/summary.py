@@ -1,19 +1,35 @@
+import argparse
 import hashlib
 import os
+import sys
 
 
-def main(chemin):
-    hash = hashlib.blake2s(str(chemin).encode(), key=b'AP', digest_size=2).hexdigest()
+def main(agrs):
+    """
+    Résume les intances contenu dans un dossier
+    :param args: String, chemin du dossier
+    :return:
+    """
+
+    parser = argparse.ArgumentParser()
+    # Required arguments.
+    parser.add_argument(
+        "--chemin",
+        type=str,
+        help="Chemin du dossier.", )
+    args = parser.parse_args()
+
+    hash = hashlib.blake2s(str(args.chemin).encode(), key=b'AP', digest_size=2).hexdigest()
 
     makespan = []
     temps = []
     compt = 0
-    for file in os.listdir(chemin):
-        with open(chemin + '/' + file, "r") as f:
+    for file in os.listdir(args.chemin):
+        with open(args.chemin + '/' + file, "r") as f:
             for line in f.readlines():
                 if "MakeSpan" in line:
                     makespan.append(int(line.split()[1]))
-                if "Optimum trouvé au bout de :" in line:
+                if "Optimum trouvé au bout de: " in line:
                     if float(line.split(":")[-1].split("\n")[0]) != 0:
                         temps.append(float(line.split(":")[-1].split("\n")[0]))
                 if "Instance" in line:
@@ -22,7 +38,7 @@ def main(chemin):
                     heuristique = line.split()[-1]
         compt += 1
 
-    file = open(chemin + '-' + str(hash) + '-Summary.txt', 'w')
+    file = open(args.chemin + instance + '-' + str(hash) + '-Summary.txt', 'w')
     file.write("Instance: ")
     file.write(instance)
     file.write("\n")
@@ -43,3 +59,7 @@ def main(chemin):
     file.close
 
     return temps
+
+
+if __name__ == '__main__':
+    main(sys.argv)

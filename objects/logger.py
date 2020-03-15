@@ -69,7 +69,7 @@ class Logger:
             file.write(str(line))
         file.close
 
-    def tpsFile(self, temps, nom="Temps :"):
+    def tpsFile(self, temps, nom="Temps: "):
         with open(self.location, 'r') as file:
             lines = file.readlines()
             lines.insert(2, "\n")
@@ -80,7 +80,7 @@ class Logger:
             file.write(str(line))
         file.close
 
-    def fitOverTIme(self, meanfit, maxfit, nom="Mean Fit :", nom2="Max Fit"):
+    def fitOverTIme(self, meanfit, maxfit, nom="Mean Fit:", nom2="Max Fit: "):
         with open(self.location, 'r') as file:
             lines = file.readlines()
             lines.insert(2, "\n")

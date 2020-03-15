@@ -3,16 +3,17 @@ import time
 
 import numpy as np
 import networkx as nx
-import hashlib
 
-from heuristique.heuristique_gloutonne import heuristique_gloutone
-from heuristique.ordo_avec_liste import alloc_avec_liste
-from objects.instance import Instance
 from objects.logger import Logger
-from script.utils import vecteur_bier
 
 
 def permutation_by_2_random(liste, nombre):
+    """
+    Permutation de deux élements d'une liste
+    :param liste: list
+    :param nombre: int, nombre de permutation
+    :return: list, liste permutée
+    """
     tempo = copy.copy(liste)
     for i in range(nombre):
         index1, index2 = np.random.choice(liste, 2, replace=False)
@@ -23,6 +24,11 @@ def permutation_by_2_random(liste, nombre):
 
 
 def permutation_by_2_all(liste):
+    """
+    liste de toutes les permutations
+    :param liste: list
+    :return: list, listes permutées
+    """
     liste_permut = []
     for j in range(0, len(liste) - 1):
         for i in range(j, len(liste) - 1):
@@ -35,6 +41,11 @@ def permutation_by_2_all(liste):
 
 
 def decalage_all(liste):
+    """
+    liste de tout les décalages
+    :param liste: list
+    :return: listes décalée
+    """
     liste_decale = []
     for j in range(0, len(liste)):
         tempo = copy.copy(liste)
@@ -43,6 +54,11 @@ def decalage_all(liste):
 
 
 def inversion_all(liste):
+    """
+    liste de toutes les inversions
+    :param liste: list
+    :return: liste inversées
+    """
     liste_inverse = []
     for i in range(0, len(liste)):
         for j in range(len(liste), i + 1, -1):
@@ -57,6 +73,12 @@ def inversion_all(liste):
 
 
 def permutation_random(liste, nombre):
+    """
+    permutation aléatoire d'une liste
+    :param liste: list
+    :param nombre: int, nombre de liste à générer
+    :return: liste de liste
+    """
     liste_permut = []
     for i in range(nombre):
         liste_permut.append(np.random.permutation(liste))
@@ -64,6 +86,14 @@ def permutation_random(liste, nombre):
 
 
 def exploration_voisinage(solution, n=1, max_depth=6, crit_stagnation=50):
+    """
+    Explore le voisinage d'une solution
+    :param solution: Solution
+    :param n: int
+    :param max_depth: int
+    :param crit_stagnation: double
+    :return: DiGraph
+    """
     graph = nx.MultiDiGraph()
     temps1 = time.time()
     ecart = 10
@@ -107,7 +137,16 @@ def exploration_voisinage(solution, n=1, max_depth=6, crit_stagnation=50):
     return graph
 
 
-def explore_deeper(depth, to_be_explored, explored, graph, n, Fichier):
+def explore_deeper(depth, to_be_explored, explored, graph, n, fichier):
+    """
+    :param depth: int
+    :param to_be_explored: list
+    :param explored: list
+    :param graph: DiGraph
+    :param n: int
+    :param fichier: Fichier
+    :return: list, list , int ,Solution
+    """
     make = []
     origine = to_be_explored[0]
     origine.voisinage()
@@ -124,9 +163,9 @@ def explore_deeper(depth, to_be_explored, explored, graph, n, Fichier):
             make.append(b.makeSpan)
             print("Profondeur:", depth, ", Root: ", origine.nom, ", Voisinage: ",
                   b.nom, ", makeSpan: ", b.makeSpan, '/', origine.makeSpan,
-                  ", écart: ", ecart, "%", file=open(Fichier.location, 'a'))
+                  ", écart: ", ecart, "%", file=open(fichier.location, 'a'))
         else:
-            print("Deja exploré, Voisinage: ", b.nom, file=open(Fichier.location, 'a'))
+            print("Deja exploré, Voisinage: ", b.nom, file=open(fichier.location, 'a'))
             ecart = 0
             make.append(b.makeSpan)
 
