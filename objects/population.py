@@ -35,10 +35,10 @@ class Population:
 
     def _maj_Nombre(self):
         self.nombre = len(self.individu)
-        for indv in self.individu:
-            if self.generation < indv.generation:
-                self.generation = indv.generation
-                self.change = False
+        # for indv in self.individu:
+        #    if self.generation < indv.generation:
+        #        self.generation = indv.generation
+        #       self.change = False
 
     def MeanFit(self):
         temp = 0

@@ -80,6 +80,18 @@ class Logger:
             file.write(str(line))
         file.close
 
+    def fitOverTIme(self, meanfit, maxfit, nom="Mean Fit :", nom2="Max Fit"):
+        with open(self.location, 'r') as file:
+            lines = file.readlines()
+            lines.insert(2, "\n")
+            lines.insert(2, nom + str(meanfit))
+            lines.insert(2, "\n")
+            lines.insert(2, nom2 + str(maxfit))
+        file = open(self.location, 'w')
+        for line in lines:
+            file.write(str(line))
+        file.close
+
     def _hashed(self):
         hash = hashlib.blake2s(str(self.instance.nom + str(self.attributes)).encode(),
                                key=b'AP', digest_size=4).hexdigest()

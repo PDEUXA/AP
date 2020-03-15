@@ -4,6 +4,7 @@ import hashlib
 class Individu:
     def __init__(self, population, pere, mere, sequence):
         self.cout = "N/A"
+        self.fitness = "N/A"
         self.proba = 0
         self.population = population
         self.__croisement = False

@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Results/ft20_2f162d65.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/ft20_5de9a81c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/ft20_bc53a149.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/ft20_e6db0c8d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_6fcf631a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_8af03879.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_cf05eea8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Results/génétique ft/ta01/ta01_de0ca35a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/la01_4e6ff342.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/la01_d689300e.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/génétique ft/ta01-1d7a-Summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Results/génétique ft/ta01-1d7a-Summary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results/summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Results/summary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/ft20_03cccdee.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/ft20_2f162d65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/ft20_5de9a81c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/ft20_b1aab006.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/ft20_bc53a149.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/ft20_c6875fdb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/ft20_e1f61d97.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/ft20_e6db0c8d.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/heuristique/genetique.py" beforeDir="false" afterPath="$PROJECT_DIR$/heuristique/genetique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/individus.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/individus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/population.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects/population.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +81,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -176,6 +179,10 @@
       <workItem from="1583826383121" duration="4000" />
       <workItem from="1584000328000" duration="6602000" />
       <workItem from="1584086374437" duration="6000" />
+      <workItem from="1584086400384" duration="182000" />
+      <workItem from="1584090103919" duration="1077000" />
+      <workItem from="1584181448900" duration="178000" />
+      <workItem from="1584277357391" duration="5151000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation">
       <created>1578672082686</created>
@@ -261,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583769561434</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="with logs file">
+      <created>1584086436519</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584086436519</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +307,8 @@
     <MESSAGE value="Algo genetique v1.2&#10;modification sort_task (pour les instances de type ta)&#10;modification laoder (pour les instances de type ta)&#10;modification critere d'arret du voisinage" />
     <MESSAGE value="modification individus (cosmetique)&#10;modification instance (init)&#10;creation logger" />
     <MESSAGE value="correction de bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction de bug" />
+    <MESSAGE value="with logs file" />
+    <option name="LAST_COMMIT_MESSAGE" value="with logs file" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -305,44 +320,49 @@
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="416" y="240" width="520" height="287" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.28.1360.712@0.28.1360.712" timestamp="1581592097821" />
-    <state x="442" y="28" width="869" height="711" key="CommitChangelistDialog2" timestamp="1584086408150">
+    <state x="442" y="28" width="862" height="806" key="CommitChangelistDialog2" timestamp="1584086436414">
       <screen x="0" y="28" width="1920" height="1024" />
     </state>
     <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580487213262" />
     <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1583769561236" />
-    <state x="442" y="28" key="CommitChangelistDialog2/0.28.1920.1024@0.28.1920.1024" timestamp="1584086408150" />
+    <state x="442" y="28" width="862" height="806" key="CommitChangelistDialog2/0.28.1920.1024@0.28.1920.1024" timestamp="1584086436414" />
     <state x="199" y="84" width="1090" height="598" key="DiffContextDialog" timestamp="1583769530997">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="199" y="84" width="1090" height="598" key="DiffContextDialog/0.28.1360.712@0.28.1360.712" timestamp="1583769530997" />
-    <state x="463" y="142" width="426" height="483" key="FileChooserDialogImpl" timestamp="1581064879031">
-      <screen x="0" y="28" width="1360" height="712" />
+    <state x="2574" y="173" width="426" height="483" key="FileChooserDialogImpl" timestamp="1584282678901">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="463" y="142" width="426" height="483" key="FileChooserDialogImpl/0.28.1360.712@0.28.1360.712" timestamp="1581064879031" />
-    <state width="344" height="577" key="GridCell.Tab.0.bottom" timestamp="1584007259019">
-      <screen x="0" y="28" width="1920" height="1024" />
+    <state x="2574" y="173" key="FileChooserDialogImpl/1920.0.1920.1080/0.28.1920.1024@1920.0.1920.1080" timestamp="1584282678901" />
+    <state width="343" height="872" key="GridCell.Tab.0.bottom" timestamp="1584283147664">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580489659464" />
     <state width="241" height="503" key="GridCell.Tab.0.bottom/0.28.1360.712@0.28.1360.712" timestamp="1582278251681" />
     <state width="344" height="577" key="GridCell.Tab.0.bottom/0.28.1920.1024@0.28.1920.1024" timestamp="1584007259019" />
-    <state width="344" height="577" key="GridCell.Tab.0.center" timestamp="1584007259018">
-      <screen x="0" y="28" width="1920" height="1024" />
+    <state width="343" height="872" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.28.1920.1024@1920.0.1920.1080" timestamp="1584283147664" />
+    <state width="343" height="872" key="GridCell.Tab.0.center" timestamp="1584283147664">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580489659463" />
     <state width="241" height="503" key="GridCell.Tab.0.center/0.28.1360.712@0.28.1360.712" timestamp="1582278251681" />
     <state width="344" height="577" key="GridCell.Tab.0.center/0.28.1920.1024@0.28.1920.1024" timestamp="1584007259018" />
-    <state width="344" height="577" key="GridCell.Tab.0.left" timestamp="1584007259018">
-      <screen x="0" y="28" width="1920" height="1024" />
+    <state width="343" height="872" key="GridCell.Tab.0.center/1920.0.1920.1080/0.28.1920.1024@1920.0.1920.1080" timestamp="1584283147664" />
+    <state width="343" height="872" key="GridCell.Tab.0.left" timestamp="1584283147664">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580489659462" />
     <state width="241" height="503" key="GridCell.Tab.0.left/0.28.1360.712@0.28.1360.712" timestamp="1582278251681" />
     <state width="344" height="577" key="GridCell.Tab.0.left/0.28.1920.1024@0.28.1920.1024" timestamp="1584007259018" />
-    <state width="344" height="577" key="GridCell.Tab.0.right" timestamp="1584007259018">
-      <screen x="0" y="28" width="1920" height="1024" />
+    <state width="343" height="872" key="GridCell.Tab.0.left/1920.0.1920.1080/0.28.1920.1024@1920.0.1920.1080" timestamp="1584283147664" />
+    <state width="343" height="872" key="GridCell.Tab.0.right" timestamp="1584283147664">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580489659464" />
     <state width="241" height="503" key="GridCell.Tab.0.right/0.28.1360.712@0.28.1360.712" timestamp="1582278251681" />
     <state width="344" height="577" key="GridCell.Tab.0.right/0.28.1920.1024@0.28.1920.1024" timestamp="1584007259018" />
+    <state width="343" height="872" key="GridCell.Tab.0.right/1920.0.1920.1080/0.28.1920.1024@1920.0.1920.1080" timestamp="1584283147664" />
     <state x="144" y="79" key="MergeDialog" timestamp="1580480626463">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -355,21 +375,23 @@
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="450" y="97" width="452" height="573" key="RollbackChangesDialog/0.28.1360.712@0.28.1360.712" timestamp="1580655821757" />
-    <state x="143" y="28" key="SettingsEditor" timestamp="1582278556057">
-      <screen x="0" y="28" width="1360" height="712" />
+    <state x="202" y="28" key="SettingsEditor" timestamp="1584091418972">
+      <screen x="0" y="28" width="1920" height="1024" />
     </state>
     <state x="151" y="68" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579889902379" />
     <state x="143" y="28" key="SettingsEditor/0.28.1360.712@0.28.1360.712" timestamp="1582278556057" />
+    <state x="202" y="28" key="SettingsEditor/0.28.1920.1024@0.28.1920.1024" timestamp="1584091418972" />
     <state width="498" height="398" key="SwitcherDM" timestamp="1582025095235">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
     <state width="498" height="398" key="SwitcherDM/0.28.1360.712@0.28.1360.712" timestamp="1582025095235" />
-    <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1583769563236">
-      <screen x="0" y="28" width="1360" height="712" />
+    <state x="426" y="244" width="802" height="527" key="Vcs.Push.Dialog.v2" timestamp="1584086438236">
+      <screen x="0" y="28" width="1920" height="1024" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580487222237" />
     <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1360.712@0.28.1360.712" timestamp="1583769563236" />
+    <state x="426" y="244" key="Vcs.Push.Dialog.v2/0.28.1920.1024@0.28.1920.1024" timestamp="1584086438236" />
     <state width="681" height="356" key="XDebugger.FullValuePopup" timestamp="1581946677089">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
@@ -378,11 +400,12 @@
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="99" y="128" width="1162" height="513" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.28.1360.712@0.28.1360.712" timestamp="1582276837828" />
-    <state x="474" y="293" key="com.intellij.ide.util.TipDialog" timestamp="1584086375133">
-      <screen x="0" y="28" width="1920" height="1024" />
+    <state x="2394" y="279" key="com.intellij.ide.util.TipDialog" timestamp="1584277428718">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="336" y="212" key="com.intellij.ide.util.TipDialog/0.28.1360.712@0.28.1360.712" timestamp="1583826383542" />
     <state x="474" y="293" key="com.intellij.ide.util.TipDialog/0.28.1920.1024@0.28.1920.1024" timestamp="1584086375133" />
+    <state x="2394" y="279" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.28.1920.1024@1920.0.1920.1080" timestamp="1584277428718" />
     <state x="344" y="28" width="664" height="711" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581940493801">
       <screen x="0" y="28" width="1360" height="712" />
     </state>
