@@ -6,7 +6,7 @@ import time
 import multiprocess as mp
 import numpy as np
 from heuristique_gloutonne import heuristique_gloutonne
-from ordo_avec_liste import alloc_avec_liste
+from script.ordo_avec_liste import alloc_avec_liste
 from objects.logger import Logger
 from script.affichage import plot_genetique_fitness
 from script.recherche_voisin import permutation_random, permutation_by_2_random

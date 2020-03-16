@@ -1,0 +1,82 @@
+Instance: ft06
+Heuristique: exploration_voisinage
+Temps: 26.25
+Itérations: 32
+Séquence finale: [5 1 5 0 2 0 1 3 5 2 4 5 0 3 0 1 2 3 5 3 1 4 0 4 4 5 2 1 3 2 3 0 4 2 4 1],
+ a6d430
+MakeSpan: 58
+___________________________________________________________________
+========================== Paramètre(s): ==========================
+___________________________________________________________________
+n: 2
+max_depth: 6
+crit_stagnation: 50
+Séquence de départ: [0 5 0 2 3 5 2 4 5 0 3 0 1 2 3 5 3 1 4 0 3 2 3 5 2 5 4 4 0 4 2 4 1 1 1 1]
+___________________________________________________________________
+============================== Logs ===============================
+___________________________________________________________________
+Profondeur: 0 , Root:  cbcd00 , Voisinage:  d56b13 , makeSpan:  66 / 88 , écart:  0.25 %
+Profondeur: 0 , Root:  cbcd00 , Voisinage:  d56b13 , makeSpan:  66 / 88 , écart:  0.25 %
+Profondeur: 1 , Root:  d56b13 , Voisinage:  b65112 , makeSpan:  61 / 66 , écart:  0.076 %
+Profondeur: 1 , Root:  d56b13 , Voisinage:  b65112 , makeSpan:  61 / 66 , écart:  0.076 %
+Profondeur: 1 , Root:  d56b13 , Voisinage:  b65112 , makeSpan:  61 / 66 , écart:  0.076 %
+Profondeur: 1 , Root:  d56b13 , Voisinage:  b65112 , makeSpan:  61 / 66 , écart:  0.076 %
+Profondeur: 2 , Root:  b65112 , Voisinage:  ee1896 , makeSpan:  60 / 61 , écart:  0.016 %
+Profondeur: 2 , Root:  b65112 , Voisinage:  b53dca , makeSpan:  60 / 61 , écart:  0.016 %
+Profondeur: 2 , Root:  b65112 , Voisinage:  ee1896 , makeSpan:  60 / 61 , écart:  0.016 %
+Profondeur: 2 , Root:  b65112 , Voisinage:  b53dca , makeSpan:  60 / 61 , écart:  0.016 %
+Profondeur: 2 , Root:  b65112 , Voisinage:  ee1896 , makeSpan:  60 / 61 , écart:  0.016 %
+Profondeur: 2 , Root:  b65112 , Voisinage:  b53dca , makeSpan:  60 / 61 , écart:  0.016 %
+Profondeur: 2 , Root:  b65112 , Voisinage:  ee1896 , makeSpan:  60 / 61 , écart:  0.016 %
+Profondeur: 2 , Root:  b65112 , Voisinage:  b53dca , makeSpan:  60 / 61 , écart:  0.016 %
+Profondeur: 3 , Root:  ee1896 , Voisinage:  8ea32c , makeSpan:  60 / 60 , écart:  0.0 %
+Profondeur: 3 , Root:  ee1896 , Voisinage:  8ea32c , makeSpan:  60 / 60 , écart:  0.0 %
+Profondeur: 3 , Root:  b53dca , Voisinage:  e50319 , makeSpan:  60 / 60 , écart:  0.0 %
+Deja exploré, Voisinage:  b53dca
+Profondeur: 3 , Root:  ee1896 , Voisinage:  8ea32c , makeSpan:  60 / 60 , écart:  0.0 %
+Profondeur: 3 , Root:  ee1896 , Voisinage:  8ea32c , makeSpan:  60 / 60 , écart:  0.0 %
+Profondeur: 3 , Root:  b53dca , Voisinage:  e50319 , makeSpan:  60 / 60 , écart:  0.0 %
+Deja exploré, Voisinage:  b53dca
+Profondeur: 3 , Root:  ee1896 , Voisinage:  8ea32c , makeSpan:  60 / 60 , écart:  0.0 %
+Profondeur: 3 , Root:  ee1896 , Voisinage:  8ea32c , makeSpan:  60 / 60 , écart:  0.0 %
+Profondeur: 3 , Root:  b53dca , Voisinage:  e50319 , makeSpan:  60 / 60 , écart:  0.0 %
+Deja exploré, Voisinage:  b53dca
+Profondeur: 3 , Root:  ee1896 , Voisinage:  8ea32c , makeSpan:  60 / 60 , écart:  0.0 %
+Profondeur: 3 , Root:  ee1896 , Voisinage:  8ea32c , makeSpan:  60 / 60 , écart:  0.0 %
+Profondeur: 3 , Root:  b53dca , Voisinage:  e50319 , makeSpan:  60 / 60 , écart:  0.0 %
+Deja exploré, Voisinage:  b53dca
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  b53dca
+Profondeur: 4 , Root:  e50319 , Voisinage:  b2e453 , makeSpan:  60 / 60 , écart:  0.0 %
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  b53dca
+Profondeur: 4 , Root:  e50319 , Voisinage:  b2e453 , makeSpan:  60 / 60 , écart:  0.0 %
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  b53dca
+Profondeur: 4 , Root:  e50319 , Voisinage:  b2e453 , makeSpan:  60 / 60 , écart:  0.0 %
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  ee1896
+Deja exploré, Voisinage:  b53dca
+Profondeur: 4 , Root:  e50319 , Voisinage:  b2e453 , makeSpan:  60 / 60 , écart:  0.0 %
+Profondeur: 5 , Root:  b2e453 , Voisinage:  a43f11 , makeSpan:  59 / 60 , écart:  0.017 %
+Profondeur: 5 , Root:  b2e453 , Voisinage:  6025eb , makeSpan:  60 / 60 , écart:  0.0 %
+Profondeur: 5 , Root:  b2e453 , Voisinage:  a43f11 , makeSpan:  59 / 60 , écart:  0.017 %
+Profondeur: 5 , Root:  b2e453 , Voisinage:  6025eb , makeSpan:  60 / 60 , écart:  0.0 %
+Profondeur: 5 , Root:  b2e453 , Voisinage:  a43f11 , makeSpan:  59 / 60 , écart:  0.017 %
+Profondeur: 5 , Root:  b2e453 , Voisinage:  6025eb , makeSpan:  60 / 60 , écart:  0.0 %
+Profondeur: 5 , Root:  b2e453 , Voisinage:  a43f11 , makeSpan:  59 / 60 , écart:  0.017 %
+Profondeur: 5 , Root:  b2e453 , Voisinage:  6025eb , makeSpan:  60 / 60 , écart:  0.0 %
+Profondeur: 6 , Root:  a43f11 , Voisinage:  a86a45 , makeSpan:  58 / 59 , écart:  0.017 %
+Profondeur: 6 , Root:  a43f11 , Voisinage:  a6d430 , makeSpan:  59 / 59 , écart:  0.0 %
+Profondeur atteinte
