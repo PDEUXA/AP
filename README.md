@@ -7,12 +7,11 @@ python voisinage.py --instance ft06
 ````
 
 Les arguments:
-
-"Nom de l'instance": instance
-"Nombre de voisin": n, 
-"Profondeur d'exploration": max_depth, 
-"Nombre d'itération avant arrêt pour stagnation": crit_stagnation,
-"Séquence de départ": listonly
+* "Nom de l'instance": instance
+* "Nombre de voisin": n, 
+* "Profondeur d'exploration": max_depth, 
+* "Nombre d'itération avant arrêt pour stagnation": crit_stagnation,
+* "Séquence de départ": listonly
 
 ## Algorithme génétique:
 
