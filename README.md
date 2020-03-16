@@ -1,5 +1,5 @@
-#Utilisation 
-##Pour utiliser la recherche de voisinage:
+# Utilisation 
+## Recherche de voisinage:
 
 ````shell script
 python voisinage.py --instance ft06
@@ -13,7 +13,8 @@ Les arguments:
 "Profondeur d'exploration": max_depth, 
 "Nombre d'itération avant arrêt pour stagnation": crit_stagnation,
 "Séquence de départ": listonly
-##Pour utiliser l'algorithme génétique:
+
+## Algorithme génétique:
 
 ````shell script
 python genetique.py --ratiovoisin 0.2 --selec 100 --random False --crois 100 --gene 400 --beta 0.3 --multi 4
