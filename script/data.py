@@ -44,7 +44,7 @@ def separate(matrix):
     # Array, duration matrix
     machine = []
     duration = []
-    for i, job in enumerate(matrix[1:]):
+    for i, job in enumerate(matrix):
         machine.append([])
         duration.append([])
         for k, e in enumerate(job):

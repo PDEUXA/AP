@@ -1,4 +1,17 @@
 # Utilisation 
+## Methode exact:
+CPLEX requis
+
+````shell script
+python heuristique_gloutonne.py --instance ft06
+
+````
+
+* "Nom de l'instance": instance
+* "SPT OU LPT" : prio
+* "probabilité d'avoir un choix aléatoire dans l'heuristique": rnd
+
+
 ## Recherche de voisinage:
 
 ````shell script

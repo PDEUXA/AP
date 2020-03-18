@@ -1,8 +1,38 @@
+import argparse
 import random
+import sys
 
 from objects.instance import Instance
 
 inst: Instance
+
+
+def main(argv):
+    """
+    :param argv: parser
+    :return: None
+    """
+    parser = argparse.ArgumentParser()
+    # Required arguments.
+    parser.add_argument(
+        "--prio",
+        default="STP",
+        type=str,
+        help="SPT ou LPT", )
+    parser.add_argument(
+        "--instance",
+        default="ft06",
+        type=str,
+        help="nom de l'instance", )
+    parser.add_argument(
+        "--rnd",
+        default=0,
+        type=float,
+        help="tx de randomisation", )
+
+    args = parser.parse_args()
+
+    heuristique_gloutonne(Instance(args.instance), args.prio, args.rnd)
 
 
 def recherche_tache(inst, t, prio="SPT", rnd=0):
@@ -101,3 +131,7 @@ def heuristique_gloutonne(instance, prio="SPT", rnd=0, verbose=0):
         time += 1
     instance.calcMakeSpan()
     return instance.makeSpan
+
+
+if __name__ == '__main__':
+    main(sys.argv)
