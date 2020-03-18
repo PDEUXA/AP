@@ -26,6 +26,8 @@ Les arguments:
 * "Nombre d'itération avant arrêt pour stagnation": crit_stagnation,
 * "Séquence de départ": listonly
 
+--> la sortie est un fichier texte dans Results/
+
 ## Algorithme génétique:
 
 ````shell script
@@ -45,3 +47,5 @@ Les arguments:
 * "Facteur de mutation": beta,
 * "Affichage graphique": withgraph
 * "Resolution de plusieurs instances": multi
+
+--> la sortie est un fichier texte dans Results/
