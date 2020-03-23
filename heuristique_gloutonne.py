@@ -4,9 +4,6 @@ import sys
 
 from objects.instance import Instance
 
-inst: Instance
-
-
 def main(argv):
     """
     :param argv: parser
@@ -15,15 +12,15 @@ def main(argv):
     parser = argparse.ArgumentParser()
     # Required arguments.
     parser.add_argument(
-        "--prio",
-        default="STP",
-        type=str,
-        help="SPT ou LPT", )
-    parser.add_argument(
         "--instance",
         default="ft06",
         type=str,
         help="nom de l'instance", )
+    parser.add_argument(
+        "--prio",
+        default="SPT",
+        type=str,
+        help="SPT ou LPT", )
     parser.add_argument(
         "--rnd",
         default=0,
@@ -32,8 +29,8 @@ def main(argv):
 
     args = parser.parse_args()
 
-    heuristique_gloutonne(Instance(args.instance), args.prio, args.rnd)
-
+    r = heuristique_gloutonne(Instance(args.instance), args.prio, args.rnd)
+    print(r)
 
 def recherche_tache(inst, t, prio="SPT", rnd=0):
     """

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="maj README.md">
+    <list default="true" id="ec88b872-c3c5-4ed4-b31a-72d4949946b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heuristique_gloutonne.py" beforeDir="false" afterPath="$PROJECT_DIR$/heuristique_gloutonne.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/methode_exacte.py" beforeDir="false" afterPath="$PROJECT_DIR$/methode_exacte.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -356,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584545976796</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="maj README.md">
+      <created>1584973202595</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1584973202595</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,14 +415,14 @@
       <screen x="0" y="28" width="1360" height="712" />
     </state>
     <state x="416" y="240" width="520" height="287" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.28.1360.712@0.28.1360.712" timestamp="1581592097821" />
-    <state x="2362" y="28" width="1217" height="1024" key="CommitChangelistDialog2" timestamp="1584973122825">
+    <state x="2362" y="28" width="1217" height="1024" key="CommitChangelistDialog2" timestamp="1584973202517">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580487213262" />
     <state x="313" y="28" width="869" height="711" key="CommitChangelistDialog2/0.28.1360.712@0.28.1360.712" timestamp="1583769561236" />
     <state x="442" y="28" width="862" height="806" key="CommitChangelistDialog2/0.28.1920.1024@0.28.1920.1024" timestamp="1584086436414" />
     <state x="313" y="28" width="862" height="739" key="CommitChangelistDialog2/1920.0.1920.1080/0.28.1360.740@0.28.1360.740" timestamp="1584545976701" />
-    <state x="2362" y="28" width="1217" height="1024" key="CommitChangelistDialog2/1920.0.1920.1080/0.28.1360.740@1920.0.1920.1080" timestamp="1584973122825" />
+    <state x="2362" y="28" width="1217" height="1024" key="CommitChangelistDialog2/1920.0.1920.1080/0.28.1360.740@1920.0.1920.1080" timestamp="1584973202517" />
     <state x="2362" y="28" width="924" height="896" key="CommitChangelistDialog2/1920.0.1920.1080/0.28.1920.1024@1920.0.1920.1080" timestamp="1584358806998" />
     <state x="2201" y="85" width="1537" height="893" key="DiffContextDialog" timestamp="1584972805975">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -510,13 +515,14 @@
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1579892576483" />
     <state width="498" height="398" key="SwitcherDM/0.28.1360.712@0.28.1360.712" timestamp="1582025095235" />
-    <state x="302" y="184" width="802" height="550" key="Vcs.Push.Dialog.v2" timestamp="1584545978098">
-      <screen x="0" y="28" width="1360" height="740" />
+    <state x="2346" y="228" width="802" height="550" key="Vcs.Push.Dialog.v2" timestamp="1584973204291">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580487222237" />
     <state x="302" y="178" width="802" height="527" key="Vcs.Push.Dialog.v2/0.28.1360.712@0.28.1360.712" timestamp="1583769563236" />
     <state x="426" y="244" key="Vcs.Push.Dialog.v2/0.28.1920.1024@0.28.1920.1024" timestamp="1584086438236" />
     <state x="302" y="184" width="802" height="550" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.28.1360.740@0.28.1360.740" timestamp="1584545978098" />
+    <state x="2346" y="228" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.28.1360.740@1920.0.1920.1080" timestamp="1584973204291" />
     <state x="2346" y="228" width="802" height="550" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.28.1920.1024@1920.0.1920.1080" timestamp="1584358807992" />
     <state width="681" height="356" key="XDebugger.FullValuePopup" timestamp="1581946677089">
       <screen x="0" y="28" width="1360" height="712" />
