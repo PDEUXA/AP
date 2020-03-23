@@ -1,7 +1,7 @@
 import json
 
 
-def loader(name='abz5', ensemble = True):
+def loader(name='ft06', ensemble=True):
     # Input: String, the name of a instances listed in the json file
     # Output:
     #  -number of machine

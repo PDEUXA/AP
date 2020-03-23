@@ -19,14 +19,20 @@ def main(argv):
         default="ft06",
         type=str,
         help="Nom de l'instance", )
+    parser.add_argument(
+        "--temps",
+        default=10,
+        type=int,
+        help="Temps de recherche", )
     args = parser.parse_args()
 
     setup()
-    recherche_exact(args.instance)
+    recherche_exact(args.instance, args.temps)
 
 
-def recherche_exact(instance):
+def recherche_exact(instance, temps):
     '''
+    :param temps: int, temps de recherche
     :param instance: nom de l'instance str
     :return: None
     '''
@@ -62,7 +68,7 @@ def recherche_exact(instance):
 
     # Solve model
     print("Solving model....")
-    msol = model.solve(TimeLimit=10)
+    msol = model.solve(TimeLimit=temps)
 
 
 if __name__ == '__main__':

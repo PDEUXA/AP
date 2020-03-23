@@ -1,7 +1,16 @@
 # Utilisation 
 ## Methode exact:
 CPLEX requis
+````shell script
+python methode_exacte.py --instance ft06
 
+````
+
+* "Nom de l'instance": instance
+
+
+
+## Heuristique gloutonne
 ````shell script
 python heuristique_gloutonne.py --instance ft06
 
